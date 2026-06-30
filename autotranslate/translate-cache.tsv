@@ -54,6 +54,7 @@
 (__C988__)-metoden jämför g1 med g3 och returnerar __C989__.	The __C988__-method compares g1 with g3 and returns __C989__.
 (execute) tillstånd att exekvera program (för kataloger betyder __C747__ tillstånd att titta på innehållet i katalogen)	(execute) permission to execute programs (for directories means __C747__ permission to view the contents of the directory)
 (execute) tillstånd att exekvera program (för kataloger betyder __C796__ tillstånd att titta på innehållet i katalogen)	(execute) state to execute programs (for directories means __C796__ state to look at the content of the directory)
+(execute) tillstånd att exekvera program (för kataloger betyder __C810__ tillstånd att titta på innehållet i katalogen)	(execute) permission to execute a program (for directories, __C810__ means permission to view the directory's contents)
 (execute) tillstånd att exekvera program (för kataloger betyder __C812__ tillstånd att titta på innehållet i katalogen)	(execute) state to execute programs (for directories means __C812__ state to look at the content of the directory)
 (flyttalsaritmetik med noggrannhetsproblem: enligt ''normal'' aritmetik ska det bli exakt 45.)	(floating-point arithmetic with precision issues: according to ``normal'' arithmetic, it should be exactly 45.)
 (förklaras i forts.kurs)	(further explained in the next course)
@@ -206,6 +207,8 @@
 -sats: bra när man __C1466____C1467__vill ange antalet repetitioner__C1468__:	-sats: bra när man __C1466____C1467__vill ange antalet repetitioner__C1468__:
 -sats: bra när man __C1469____C1470__vill ange antalet repetitioner__C1471__:	-sats: bra när man __C1469____C1470__vill ange antalet repetitioner__C1471__:
 -sats: bra när man __C1500____C1501__vill ange antalet repetitioner__C1502__:\n__C1503__\nUtläses: __C1504____C1505__för varje__C1506__ __C1507__ som går från 1 till-och-med 10 skriv ''gurka nr __C1508__''	-satement: good when you __C1500____C1501__want to specify the number of repetitions__C1502__:\n__C1503__\nReads as: __C1504____C1505__for each__C1506__ __C1507__ that goes from 1 to-and-inclusive 10 write ''pickle nr __C1508__''
+-sats: bra när man __C1507____C1508__inte vet hur många gånger__C1509__ det kan bli.	statements are good when you don't know how many times __C1507__ __C1508__ it can be __C1509__.
+-sats: bra när man __C1517____C1518__vill ange antalet repetitioner__C1519__:\n__C1520__\nUtläses: __C1521____C1522__för varje__C1523__ __C1524__ som går från 1 till-och-med 10 skriv ''gurka nr __C1525__''	-sats: bra när man __C1517____C1518__vill ange antalet repetitioner__C1519__:\n__C1520__\nUtläses: __C1521____C1522__för varje__C1523__ __C1524__ som går från 1 till-och-med 10 skriv ''gurka nr __C1525__''
 -sats: bra när man __C1522____C1523__vill ange antalet repetitioner__C1524__:\n__C1525__\nUtläses: __C1526____C1527__för varje__C1528__ __C1529__ som går från 1 till-och-med 10 skriv ''gurka nr __C1530__''	-statement: good when you __C1522____C1523__want to specify the number of repetitions__C1524__:\n__C1525__\nReads as: __C1526____C1527__for each__C1528__ __C1529__ that goes from 1 to-and-inclusive 10 write ''gurka nr __C1530__''
 -sats: bra när man __C1528____C1529__inte vet hur många gånger__C1530__ det kan bli.	-sats: bra när man __C1528____C1529__inte vet hur många gånger__C1530__ det kan bli.
 -sats: bra när man __C1534____C1535__inte vet hur många gånger__C1536__ det kan bli.	-sats: bra när man __C1534____C1535__inte vet hur många gånger__C1536__ det kan bli.
@@ -496,6 +499,7 @@
 12/12 kl 13-15 i E:C__C12__ ger Björn Regnell en föreläsning i C:arnas kurs om digitalisering EITA65:	12/12 at 13-15 in E:C__C12__ Björn Regnell will give a lecture in C:arnas course on digitalization EITA65:
 15__C169____C170__Java	15__C169____C170__Java
 1960-talet: Multics, ett stort projekt avsedd för stora datorer.	1960s: Multics, a large project intended for mainframe computers.
+1969: Ken Thompson på AT__C202__T Bell Labs utvecklar Unix, ett enklare system för mindre datorer med inspiration från Multics.	1969: Ken Thompson at __C202__T Bell Labs develops Unix, a simpler system for smaller computers inspired by Multics.
 1969: Ken Thompson på AT__C204__T Bell Labs utvecklar Unix, ett enklare system för mindre datorer med inspiration från Multics.	1969: Ken Thompson på AT__C204__T Bell Labs utvecklar Unix, ett enklare system för mindre datorer med inspiration från Multics.
 1973: Unix omskrivs i C av Dennis Ritchie, vilket underlättar distribution och anpassning.	1973: Unix is rewritten in C by Dennis Ritchie, which facilitates distribution and adaptation.
 1983: GNU-verktygen -- fritt Unix-liknande operativsystem.	1983: GNU Tools -- free Unix-like operating system.
@@ -605,6 +609,7 @@ Abstraktioner med __C1052____C1053__välgenomtänkta namn__C1054__ är enklare a
 Abstraktioner med __C1130____C1131__välgenomtänkta namn__C1132__ är enklare att använda, jämfört med kryptiska eller missvisande namn.	Abstraktioner med __C1130____C1131__välgenomtänkta namn__C1132__ är enklare att använda, jämfört med kryptiska eller missvisande namn.
 Abstraktioner med __C1149____C1150__välgenomtänkta namn__C1151__ är enklare att använda, jämfört med kryptiska eller missvisande namn.	Abstraktioner med __C1149____C1150__välgenomtänkta namn__C1151__ är enklare att använda, jämfört med kryptiska eller missvisande namn.
 Abstraktioner med __C1551____C1552__välgenomtänkta namn__C1553__ är enklare att använda, jämfört med kryptiska eller missvisande namn.	Abstraktioner med __C1551____C1552__välgenomtänkta namn__C1553__ är enklare att använda, jämfört med kryptiska eller missvisande namn.
+Abstraktioner med __C1628____C1629__välgenomtänkta namn__C1630__ är enklare att använda, jämfört med kryptiska eller missvisande namn.	Abstraktioner med __C1628____C1629__välgenomtänkta namn__C1630__ är enklare att använda, jämfört med kryptiska eller missvisande namn.
 Abstraktioner med __C1649____C1650__välgenomtänkta namn__C1651__ är enklare att använda, jämfört med kryptiska eller missvisande namn.	Abstraktioner med __C1649____C1650__välgenomtänkta namn__C1651__ är enklare att använda, jämfört med kryptiska eller missvisande namn.
 Abstraktioner med __C1655____C1656__välgenomtänkta namn__C1657__ är enklare att använda, jämfört med kryptiska eller missvisande namn.	Abstraktioner med __C1655____C1656__välgenomtänkta namn__C1657__ är enklare att använda, jämfört med kryptiska eller missvisande namn.
 Abstraktioner som beräknar eller gör __C0__ är enklare att använda, jämfört med de som gör många, helt olika saker.	Abstractions that calculate or do __C0__ are easier to use, compared to those that do many, completely different things.
@@ -639,6 +644,7 @@ Aktiveringsposten __C0__ när __C1__ har levererats.	Activation post __C0__ when
 Aktiveringsposten __C322____C323__raderas__C324__ när __C325____C326__returvärdet__C327__ har levererats.	Aktiveringsposten __C322____C323__raderas__C324__ när __C325____C326__returvärdet__C327__ har levererats.
 Aktiveringsposten __C366____C367__raderas__C368__ när __C369____C370__returvärdet__C371__ har levererats.	Aktiveringsposten __C366____C367__raderas__C368__ när __C369____C370__returvärdet__C371__ har levererats.
 Aktuell katalog --	Current directory --
+Aktuell katalog -- __C392____C393__där du är i filträdet	Current directory -- __C392__ __C393__ where you are in the file tree
 Aktuell katalog -- __C394____C395__där du är i filträdet	Aktuell katalog -- __C394____C395__där du är i filträdet
 Algebraisk datatyp , förk.	Algebraic data type, intro.
 Algebraisk datatyp , förk. ADT:	Algebraic data type, for example ADT:
@@ -780,6 +786,7 @@ Allsidig prestanda: __C131____C132__bra till det mesta__C133__.	Versatile perfor
 Allsidig prestanda: __C138____C139__bra till det mesta__C140__.	Allsidig prestanda: __C138____C139__bra till det mesta__C140__.
 Allt kursmaterial finns tillgängligt på GitHub:	All course material is available on GitHub:
 Allt material är __C0__.	All material is __C0__.
+Allt material är __C88____C89__öppen källkod__C90__.	All material is __C88__ __C89__open source__C90__.
 Allt material är __C90____C91__öppen källkod__C92__.	Allt material är __C90____C91__öppen källkod__C92__.
 Allt som berör användargränssnittet (såsom utskrifter till terminalen och inläsning från terminalen) ska ske i __C50__ eller hjälpklasser till __C51__, inte i någon annan av klasserna som specificeras i uppgiften.	All that pertains to the user interface (such as printing to the terminal and reading from the terminal) should be done in __C50__ or helper classes to __C51__, not in any other of the classes specified in the task.
 Allteftersom ditt program blir längre ska du omforma och dela upp din kod i många, korta abstraktioner med väl valda namn för att öka läsbarheten.	As your program grows longer, you should refactor and divide your code into many short abstractions with well-chosen names to improve readability.
@@ -796,6 +803,7 @@ Alltså, ladda in operanderna som ska adderas från __C233__ och __C234__ till o
 Alltså: __C664____C665__ej referentiellt transparent__C666__.	Therefore: __C664__ __C665__not reference transparent__C666__.
 Alltså: __C722____C723__ej referentiellt transparent__C724__.	Therefore: __C722__ __C723__not reference transparent__C724__.
 Alltså: räkna hellre ut nya värden än förändra befintliga.	Therefore: calculate new values rather than change existing ones.
+Alternativ 1 rekommenderas__C1678__, men om du försenas av tekniskt strul, så kom igång med 2 så länge tills du fått hjälp.	Option 1 is recommended__C1678__, but if you are delayed by technical issues, start with 2 for now until you get help.
 Alternativ 1 rekommenderas__C1699__, men om du försenas av tekniskt strul, så kom igång med 2 så länge tills du fått hjälp.	Option 1 is recommended__C1699__, but if you are delayed by technical issues, start with 2 for now until you get help.
 Alternativ 1 rekommenderas__C1705__, men om du försenas av tekniskt strul, så kom igång med 2 så länge tills du fått hjälp.	Option 1 is recommended__C1705__, but if you are delayed by technical issues, start with 2 for now until you get help.
 Alternativ grupplaboration:	Alternative group assignment:
@@ -1428,6 +1436,7 @@ Bakgrund__C25__\nNär man skriver program skapar man ofta modeller av en viss ve
 Bakgrund__C58____C59__\n    __C60__\n            __C61____C62__Varför lära sig Maskinkod?	Background__C58____C59__\n    __C60__\n            __C61____C62__Why learn Machine Code?
 Bakgrundsfärgen blir svart.	The background color is black.
 Bakgrundskörning: Använd __C1052__ för att köra programmet frikopplat från terminalen.	Background running: Use __C1052__ to run the program detached from the terminal.
+Bakgrundskörning: Använd __C1076__ för att köra programmet frikopplat från terminalen.	Background execution: Use __C1076__ to run the program detached from the terminal.
 Bakgrundskörning: Använd __C1078__ för att köra programmet frikopplat från terminalen.	Background running: Use __C1078__ to run the program detached from the terminal.
 Banken ska ej behöva avslutas för att utskriften ska hamna på fil, om så vore fallet kan information gå förlorad om banken kraschar.	The bank should not need to be closed in order for the output to go to a file; if that were the case, information could be lost if the bank crashes.
 Bara de kataloger som har något innehåll behöver finnas.	Only directories that have something inside need to exist.
@@ -1541,6 +1550,7 @@ Besök öppna kurshemsidan för mer information om kursens innehåll:	Visit the 
 Betrakta den givna funktionen __C151__.	Consider the given function __C151__.
 Betydelse: till hemkatalogen, ner i pfk, ner i lab1\n__C436__\nBetydelse: upp ett steg, upp ett steg, ner i pgk, ner i lab1	Meaning: to home directory, down into pfk, down into lab1\n__C436__\nMeaning: up one step, up one step, down into pgk, down into lab1
 Betydelse: till hemkatalogen, ner i pfk, ner i lab1\n__C467__\nBetydelse: upp ett steg, upp ett steg, ner i pgk, ner i lab1	Meaning: to home directory, down into pfk, down into lab1\n__C467__\nMeaning: up one step, up one step, down into pgk, down into lab1
+Betydelse: till hemkatalogen, ner i pfk, ner i lab1\n__C469__\nBetydelse: upp ett steg, upp ett steg, ner i pgk, ner i lab1	Meaning: to the home catalog, down into pfc, down into lab1\n__C469__\nMeaning: up one level, up one level, down into pgk, down into lab1
 Betydelse: till hemkatalogen, ner i pfk, ner i lab1\n__C471__\nBetydelse: upp ett steg, upp ett steg, ner i pgk, ner i lab1	Meaning: to home directory, down into pfk, down into lab1\n__C471__\nMeaning: up one step, up one step, down into pgk, down into lab1
 Betydelsen av små och stora begynnelsebokstäver vid matchning.	The significance of small and capital letters in matching.
 Bidrag är varmt välkomna!	Contributions are warmly welcome!
@@ -1836,8 +1846,11 @@ Contact__C35__:	Contact__C35__:
 Contact__C36__:	Contact__C36__:
 Contributions are welcome!__C32__ __C33__\n__C34____C35__Contact__C36__:	Contributions are welcome!__C32__ __C33__\n__C34____C35__Contact__C36__:
 Contributors:	Contributors:
+Control-K__C857__                   __C858__ Radera hela raden.	Control-K__C857__                   __C858__ Delete the entire line.
 Control-K__C859__                   __C860__ Radera hela raden.	Control-K__C859__                   __C860__ Delete the entire line.
+Control-L__C867__                   __C868__ Töm terminalfönstret.	Control-L__C867__                   __C868__ Clear the terminal window.
 Control-L__C869__                   __C870__ Töm terminalfönstret.	Control-L__C869__                   __C870__ Clear the terminal window.
+Control-U__C862__                   __C863__ Radera allt till vänster.	Control-U__C862__                   __C863__ Delete everything to the left.
 Control-U__C864__                   __C865__ Radera allt till vänster.	Control-U__C864__                   __C865__ Delete all to the left.
 Conway's Game of Life	Conway's Game of Life
 Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988. - U.S. Naval Historical Center Online Library Photograph NH 96566-KN, Public Domain.	Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988. - U.S. Naval Historical Center Online Library Photograph NH 96566-KN, Public Domain.
@@ -1850,6 +1863,7 @@ Current dir: /home/bjornr/lthgitlab/pgk/solution-workspace/w12__C75__survey/bin/
 Current dir: /home/bjornr/lthgitlab/pgk/solution-workspace/w12__C84__survey/bin/\nType 'help' for list of commands.\n> load favorit.csv\nLoading favorit.csv\n  with separator ',' to table ...	Current dir: /home/bjornr/lthgitlab/pgk/solution-workspace/w12__C84__survey/bin/\nType 'help' for list of commands.\n> load favorit.csv\nLoading favorit.csv\n  with separator ',' to table ...
 Cygwin:	Cygwin:
 Cygwin__C650__: Omfattande Unix-funktionalitet. (Avråds)	Cygwin__C650__: Comprehensive Unix functionality. (Warning)
+Cygwin__C652__: Omfattande Unix-funktionalitet. (Avråds)	Cygwin__C652__: Comprehensive Unix functionality. (Optional)
 Cygwin__C654__: Omfattande Unix-funktionalitet. (Avråds)	Cygwin__C654__: Comprehensive Unix functionality. (Warning)
 D-programmet.	D-programming.
 D.v.s. ett anrop av metoden __C600__ orsakar ingen omedelbar kostnad.	That is, calling the method __C600__ incurs no immediate cost.
@@ -1942,6 +1956,7 @@ De kallas då __C0__ funktioner.	They are then called __C0__ functions.
 De kallas då __C1076____C1077__oäkta__C1078__ funktioner.	They are then called __C1076__ __C1077__pseudo__C1078__ functions.
 De kallas då __C1095____C1096__oäkta__C1097__ funktioner.	De kallas då __C1095____C1096__oäkta__C1097__ funktioner.
 De kallas då __C1524____C1525__oäkta__C1526__ funktioner.	They are then called __C1524__ __C1525__pseudo__C1526__ functions.
+De kallas då __C1601____C1602__oäkta__C1603__ funktioner.	They are then called __C1601__ __C1602__pseudo__C1603__ functions.
 De kallas då __C1622____C1623__oäkta__C1624__ funktioner.	They are then called __C1622__ __C1623__pseudo__C1624__ functions.
 De kallas då __C1628____C1629__oäkta__C1630__ funktioner.	They are then called __C1628__ __C1629__pseudo__C1630__ functions.
 De kallas då __C998____C999__oäkta__C1000__ funktioner.	They are then called __C998__ __C999__pseudo__C1000__ functions.
@@ -2358,6 +2373,7 @@ Denna symbol indikerar att du ska skriva ner och spara ett resultat som du behö
 Denna symbol visar att uppgiften är allmänbildande, men överkurs och kommer ej på tentamen.	This symbol indicates that the task is general knowledge but not for advanced courses and will not be on the exam.
 Denna syntax visar kanske bättre att tilldelning är en __C1242____C1243__stegvis process__C1244__:	This syntax perhaps shows better that assignment is a __C1242__ __C1243__step-by-step process__C1244__:
 Denna syntax visar kanske bättre att tilldelning är en __C1244____C1245__stegvis process__C1246__:	This syntax perhaps shows better that assignment is a __C1244__ __C1245__step-by-step process__C1246__:
+Denna syntax visar kanske bättre att tilldelning är en __C1278____C1279__stegvis process__C1280__:	This syntax perhaps shows better that assignment is a __C1278__ __C1279__step-by-step process__C1280__:
 Denna syntax visar kanske bättre att tilldelning är en __C1299____C1300__stegvis process__C1301__:	This syntax perhaps shows better that assignment is a __C1299__ __C1300__step-by-step process__C1301__:
 Denna syntax visar kanske bättre att tilldelning är en __C1305____C1306__stegvis process__C1307__:	This syntax perhaps shows better that assignment is a __C1305__ __C1306__stepwise process__C1307__:
 Denna syntax är ett arv från de gamla språken C, Fortran mfl.	This syntax is an inheritance from the old languages C, Fortran etc.
@@ -2394,6 +2410,7 @@ Dessa behöver vi bara göra en gång.	These only need to be done once.
 Dessa datastrukturer bearbetas med fördel med rekursiva algoritmer.	These data structures are processed with advantage using recursive algorithms.
 Dessa deklarationer...\n__C1196__\n... ger detta innehåll någonstans i minnet:	These declarations...\n__C1196__\n... put this content somewhere in memory:
 Dessa deklarationer...\n__C1198__\n... ger detta innehåll någonstans i minnet:	These declarations...\n__C1198__\n... give this content somewhere in memory:
+Dessa deklarationer...\n__C1232__\n... ger detta innehåll någonstans i minnet:	These declarations...\n__C1232__\n... put this content somewhere in memory:
 Dessa deklarationer...\n__C1239__\n... ger detta innehåll någonstans i minnet:	These declarations...\n__C1239__\n... give this content somewhere in memory:
 Dessa deklarationer...\n__C1249__\n... ger detta innehåll någonstans i minnet:	These declarations...\n__C1249__\n... give this content somewhere in memory:
 Dessa deklarationer...\n__C1253__\n... ger detta innehåll någonstans i minnet:	These declarations...\n__C1253__\n... put this content somewhere in memory:
@@ -2628,6 +2645,7 @@ Det får att kombinera kontextgräns med extensionsmetoder:\n__C1050__\nNu har v
 Det får att kombinera kontextgräns med extensionsmetoder:\n__C1142__\nNu har vi smidig punktnotation:\n__C1143__\nscala> "12".parseOrElse(default = 42)\nval res2: Int = 12	It involves combining context bounds with extension methods:\n__C1142__\nNow we have smooth dot notation:\n__C1143__\nscala> ``12''.parseOrElse(default = 42)\nval res2: Int = 12
 Det gamla värdet __C1255____C1256__försvinner för alltid__C1257__.	The old value __C1255__ __C1256__ is gone forever __C1257__.
 Det gamla värdet __C1257____C1258__försvinner för alltid__C1259__.	The old value __C1257__ __C1258__ is gone forever __C1259__.
+Det gamla värdet __C1291____C1292__försvinner för alltid__C1293__.	The old value __C1291__ __C1292__ is gone forever __C1293__.
 Det gamla värdet __C1312____C1313__försvinner för alltid__C1314__.	The old value __C1312__ __C1313__ is gone forever __C1314__.
 Det gamla värdet __C1318____C1319__försvinner för alltid__C1320__.	The old value __C1318__ __C1319__ is gone forever __C1320__.
 Det gamla värdet försvinner för alltid och det nya värdet lagras istället:	The old value disappears forever and the new value is stored instead:
@@ -3558,6 +3576,7 @@ Därefter ökar programräknaren med 1.	Afterwards, the program counter increase
 Däremot står\n__C713__\n  x__C714__1 = 3y - 2\n__C715__\nför sig själv, precis som\n__C716__\noch detta är en numrerad ekvation:\n__C717__\n  x__C718__3 = 2y__C719__2 + 7y - 2a + 3	Däremot står\n__C713__\n  x__C714__1 = 3y - 2\n__C715__\nför sig själv, precis som\n__C716__\noch detta är en numrerad ekvation:\n__C717__\n  x__C718__3 = 2y__C719__2 + 7y - 2a + 3
 Därför finns __C1269____C1270__förkortade tilldelningssatser__C1271__ som gör så att man sparar några tecken och det blir tydligare (?) vad som sker (när man vant sig vid detta skrivsätt):	Therefore, there are __C1269__ __C1270__ abbreviated assignment statements __C1271__ that save some characters and make it clearer (?) what happens (when you get used to this writing style):
 Därför finns __C1271____C1272__förkortade tilldelningssatser__C1273__ som gör så att man sparar några tecken och det blir tydligare (?) vad som sker (när man vant sig vid detta skrivsätt):	Therefore, there are __C1271__ __C1272__ abbreviated assignment statements __C1273__ that save some characters and make it clearer (?) what happens (when you get used to this writing style):
+Därför finns __C1305____C1306__förkortade tilldelningssatser__C1307__ som gör så att man sparar några tecken och det blir tydligare (?) vad som sker (när man vant sig vid detta skrivsätt):	Therefore, there are __C1305__ __C1306__ abbreviated assignment statements __C1307__ that save some characters and make it clearer (?) what happens (when you get used to this way of writing):
 Därför finns __C1326____C1327__förkortade tilldelningssatser__C1328__ som gör så att man sparar några tecken och det blir tydligare (?) vad som sker (när man vant sig vid detta skrivsätt):	Therefore, there are __C1326__ __C1327__ abbreviated assignment statements __C1328__ that save some characters and make it clearer (?) what happens (when you get used to this writing style):
 Därför finns __C1332____C1333__förkortade tilldelningssatser__C1334__ som gör så att man sparar några tecken och det blir tydligare (?) vad som sker (när man vant sig vid detta skrivsätt):	Therefore, there are __C1332____C1333__shorthand assignment statements__C1334__ that make it so that a few characters are saved and it becomes clearer (when one gets used to this writing style) what is happening.
 Därför finns det en genväg för att slippa göra både __C0__ och __C1__. Man kan använda optionen __C2__ på commit-kommandot (__C3__) för att automatiskt göra __C4__ på alla modifierade filer.	Therefore, there's a shortcut to avoid doing both __C0__ and __C1__. You can use the option __C2__ on the commit command (__C3__) to automatically do __C4__ on all modified files.
@@ -3628,6 +3647,7 @@ Då returneras strängen __C765____C766__bomben desarmerad!__C767__.	Then the st
 Då returneras värdet __C0__ som betyder ''inget''.\n__C1__\n__C2__\nscala> def hej(x: String): Unit = println(s"Hej på dej	Then the value __C0__ is returned, which means ''nothing''. \n__C1__\n__C2__\nscala> def hej(x: String): Unit = println(s``Hej på dej
 Då returneras värdet __C1512__ som betyder ''inget''.	Then the value __C1512__ is returned, which means ''nothing''.
 Då returneras värdet __C1515__ som betyder ''inget''.\n__C1516__\n__C1517__\nscala> def hej(x: String): Unit = println(s"Hej på dej	Then the value __C1515__ is returned, which means ``nothing''.\n__C1516__\n__C1517__\nscala> def hej(x: String): Unit = println(s``Hej på dej'')
+Då returneras värdet __C1589__ som betyder ''inget''.	Then the value __C1589__ is returned, which means ''nothing''.
 Då returneras värdet __C1610__ som betyder ''inget''.	Then the value __C1610__ is returned, which means ''nothing''.
 Då returneras värdet __C1616__ som betyder ''inget''.	Then the value __C1616__ is returned, which means ''nothing''.
 Då returneras värdet __C1617__ som betyder ''inget''.\n__C1618__\n__C1619__\nscala> def hej(x: String): Unit = println(s"Hej på dej	Then the value __C1617__ is returned, which means ``nothing''.\n__C1618__\n__C1619__\nscala> def hej(x: String): Unit = println(s``Hej på dej'')
@@ -3639,6 +3659,7 @@ Död__C0__: en levande cell med färre än 2 eller fler än 3 grannar	Död__C0__
 Död__C43__: en levande cell med färre än 2 eller fler än 3 grannar __C44____C45__dör	Död__C43__: en levande cell med färre än 2 eller fler än 3 grannar __C44____C45__dör
 Död__C65__. Om en levande cell har färre än två eller mer än tre grannar så dör den av underpopulation respektive överpopulation.	Dead__C65__. If a live cell has fewer than two or more than three neighbors, it dies from underpopulation or overpopulation.
 Döda celler ska vara svarta som rymden.	Dead cells should be black like space.
+Döp om __C721__ till __C722__. Om __C723__ är en katalog så flyttas filen till den katalogen.	Rename __C721__ to __C722__. If __C723__ is a directory, move the file to that directory.
 Döp om __C723__ till __C724__. Om __C725__ är en katalog så flyttas filen till den katalogen.	Rename __C723__ to __C724__. If __C725__ is a directory, the file will be moved to that directory.
 ELLER	OR
 Editera, kompilera och exekvera	Edit, compile, and execute
@@ -3891,6 +3912,7 @@ En __C1194__-deklaration ger en variabel som efter initialisering inte kan ändr
 En __C1196__-deklaration ger en variabel som efter initialisering inte kan ändras.	A __C1196__-declaration gives a variable that cannot be changed after initialization.
 En __C1204__ tar 4 bytes i minnet.	A __C1204__ takes 4 bytes in memory.
 En __C120____C121__kompilator__C122__  är ett program som läser programtext och översätter den till exekverbar maskinkod, så som visas i figur __C123__. Programtexten som kompileras kallas källkod och utgörs av text som följer reglerna för ett programmeringsspråk, till exempel Scala eller Java.	En __C120____C121__kompilator__C122__  är ett program som läser programtext och översätter den till exekverbar maskinkod, så som visas i figur __C123__. Programtexten som kompileras kallas källkod och utgörs av text som följer reglerna för ett programmeringsspråk, till exempel Scala eller Java.
+En __C1230__-deklaration ger en variabel som efter initialisering inte kan ändras.	A __C1230__ declaration gives a variable that after initialization cannot be changed.
 En __C1232__-sats...	A __C1232__-statement...
 En __C1237__-deklaration ger en variabel som efter initialisering inte kan ändras.	A __C1237__-declaration gives a variable that, after initialization, cannot be changed.
 En __C1246____C1247__variabeldeklaration__C1248__ medför att __C1249____C1250__plats i datorns minne__C1251__ reserveras så att värden av den typ som variabeln kan referera till får plats där.	En __C1246____C1247__variabeldeklaration__C1248__ medför att __C1249____C1250__plats i datorns minne__C1251__ reserveras så att värden av den typ som variabeln kan referera till får plats där.
@@ -3910,6 +3932,7 @@ En __C139____C140__namngiven__C141__ funktion __C142____C143__deklareras__C144__
 En __C1412__-sats...	A __C1412__ statement...
 En __C1496____C1497__procedur__C1498__ är en funktion som __C1499____C1500__gör__C1501__ något intressant, men som __C1502____C1503__inte__C1504__ lämnar något intressant returvärde.	En __C1496____C1497__procedur__C1498__ är en funktion som __C1499____C1500__gör__C1501__ något intressant, men som __C1502____C1503__inte__C1504__ lämnar något intressant returvärde.
 En __C1499____C1500__procedur__C1501__ är en funktion som __C1502____C1503__gör__C1504__ något intressant, men som __C1505____C1506__inte__C1507__ lämnar något intressant returvärde.	A __C1499__ __C1500__procedure__C1501__ is a function that __C1502__ __C1503__does__C1504__ something interesting, but that __C1505__ __C1506__doesn't__C1507__ return anything interesting.
+En __C1573____C1574__procedur__C1575__ är en funktion som __C1576____C1577__gör__C1578__ något intressant, men som __C1579____C1580__inte__C1581__ lämnar något intressant returvärde.	En __C1573____C1574__procedur__C1575__ är en funktion som __C1576____C1577__gör__C1578__ något intressant, men som __C1579____C1580__inte__C1581__ lämnar något intressant returvärde.
 En __C1594____C1595__procedur__C1596__ är en funktion som __C1597____C1598__gör__C1599__ något intressant, men som __C1600____C1601__inte__C1602__ lämnar något intressant returvärde.	A __C1594__ __C1595__procedure__C1596__ is a function that __C1597__ __C1598__does__C1599__ something interesting, but that __C1600__ __C1601__does not__C1602__ return anything interesting.
 En __C159____C160__förseglad typ__C161__ måste ha alla sina subtyper i en och samma kodfil.	En __C159____C160__förseglad typ__C161__ måste ha alla sina subtyper i en och samma kodfil.
 En __C15____C16__generalisering__C17__ av problement:	En __C15____C16__generalisering__C17__ av problement:
@@ -4015,6 +4038,7 @@ En av de allra viktigaste principerna inom programmering är __C1036____C1037__f
 En av de allra viktigaste principerna inom programmering är __C1114____C1115__funktionell nedbrytning__C1116__ där  __C1117____C1118__underprogram__C1119__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.	En av de allra viktigaste principerna inom programmering är __C1114____C1115__funktionell nedbrytning__C1116__ där  __C1117____C1118__underprogram__C1119__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.
 En av de allra viktigaste principerna inom programmering är __C1133____C1134__funktionell nedbrytning__C1135__ där  __C1136____C1137__underprogram__C1138__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.	En av de allra viktigaste principerna inom programmering är __C1133____C1134__funktionell nedbrytning__C1135__ där  __C1136____C1137__underprogram__C1138__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.
 En av de allra viktigaste principerna inom programmering är __C1535____C1536__funktionell nedbrytning__C1537__ där  __C1538____C1539__underprogram__C1540__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.	En av de allra viktigaste principerna inom programmering är __C1535____C1536__funktionell nedbrytning__C1537__ där  __C1538____C1539__underprogram__C1540__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.
+En av de allra viktigaste principerna inom programmering är __C1612____C1613__funktionell nedbrytning__C1614__ där  __C1615____C1616__underprogram__C1617__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.	En av de allra viktigaste principerna inom programmering är __C1612____C1613__funktionell nedbrytning__C1614__ där  __C1615____C1616__underprogram__C1617__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.
 En av de allra viktigaste principerna inom programmering är __C1633____C1634__funktionell nedbrytning__C1635__ där  __C1636____C1637__underprogram__C1638__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.	En av de allra viktigaste principerna inom programmering är __C1633____C1634__funktionell nedbrytning__C1635__ där  __C1636____C1637__underprogram__C1638__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.
 En av de allra viktigaste principerna inom programmering är __C1639____C1640__funktionell nedbrytning__C1641__ där  __C1642____C1643__underprogram__C1644__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.	En av de allra viktigaste principerna inom programmering är __C1639____C1640__funktionell nedbrytning__C1641__ där  __C1642____C1643__underprogram__C1644__ i form av funktioner och procedurer skapas för att bli byggstenar som kombineras till mer avancerade funktioner och procedurer.
 En av de stora vinsterna med att använda Git är att det underlättar mycket när flera personer arbetar tillsammans på samma projekt, eller om en och samma person vill arbeta med olika saker på projektet parallellt -- på en och samma eller flera datorer. Om man samarbetar med en annan person behöver man ge den personen rättighet att arbeta med projektet på GitHub. För att bjuda in en annan person till projektet så klicka på ''Settings'' på projektets webbsida och välj därefter ''Manage access'' i menyn till vänster. Här har du möjlighet att bjuda in en annan GitHub-användare till projektet. Klicka dig dit för att se hur sidan ser ut.	One of the great benefits of using Git is that it greatly simplifies collaboration when multiple people work together on the same project, or if one person wants to work on different aspects of the project simultaneously — on one computer or several. If you are collaborating with another person, you need to give that person the right to work on the project on GitHub. To invite another person to the project, click on 'Settings' on the project's web page and then select 'Manage access' in the left-hand menu. Here you have the opportunity to invite another GitHub user to the project. Click through to see how the page looks.
@@ -4438,6 +4462,7 @@ En variabel har ett __C810____C811__variabelnamn__C812__, vars utformning följe
 En variabel som ännu inte __C0__ har ett __C1__ värde, anges nedan med frågetecken.	A variable that has not yet __C0__ a __C1__ value is indicated below with question marks.
 En variabel som ännu inte __C1298____C1299__initierats__C1300__ har ett __C1301____C1302__odefinierat__C1303__ värde, anges nedan med frågetecken.	En variabel som ännu inte __C1298____C1299__initierats__C1300__ har ett __C1301____C1302__odefinierat__C1303__ värde, anges nedan med frågetecken.
 En variabel som ännu inte __C1301____C1302__initierats__C1303__ har ett __C1304____C1305__odefinierat__C1306__ värde, anges nedan med frågetecken.	En variabel som ännu inte __C1301____C1302__initierats__C1303__ har ett __C1304____C1305__odefinierat__C1306__ värde, anges nedan med frågetecken.
+En variabel som ännu inte __C1336____C1337__initierats__C1338__ har ett __C1339____C1340__odefinierat__C1341__ värde, anges nedan med frågetecken.	En variabel som ännu inte __C1336____C1337__initierats__C1338__ har ett __C1339____C1340__odefinierat__C1341__ värde, anges nedan med frågetecken.
 En variabel som ännu inte __C1357____C1358__initierats__C1359__ har ett __C1360____C1361__odefinierat__C1362__ värde, anges nedan med frågetecken.	En variabel som ännu inte __C1357____C1358__initierats__C1359__ har ett __C1360____C1361__odefinierat__C1362__ värde, anges nedan med frågetecken.
 En variabel som ännu inte __C1363____C1364__initierats__C1365__ har ett __C1366____C1367__odefinierat__C1368__ värde, anges nedan med frågetecken.	En variabel som ännu inte __C1363____C1364__initierats__C1365__ har ett __C1366____C1367__odefinierat__C1368__ värde, anges nedan med frågetecken.
 En variabel som ännu inte __C1364____C1365__initierats__C1366__ har ett __C1367____C1368__odefinierat__C1369__ värde, anges nedan med frågetecken.	En variabel som ännu inte __C1364____C1365__initierats__C1366__ har ett __C1367____C1368__odefinierat__C1369__ värde, anges nedan med frågetecken.
@@ -4737,6 +4762,7 @@ Ett vanligt problem: __C154__ att kolla vilket bland många värden som passar	A
 Ett verktyg för att göra versionshantering enklare, genom att spåra och hantera ändringar i projektfiler över tid.	A tool for making version control easier by tracking and managing changes in project files over time.
 Ett viktigt begrepp i byggsammanhang är __C0__ . Om koden X behöver annan kod Y för att fungera, sägs kod X ha ett beroende till kod Y.	An important concept in software development is __C0__. If code X needs other code Y to function, it is said that code X has a dependency on code Y.
 Ett viktigt begrepp i byggsammanhang är __C23____C24__beroende__C25__ . Om koden X behöver annan kod Y för att fungera, sägs kod X ha ett beroende till kod Y.	Ett viktigt begrepp i byggsammanhang är __C23____C24__beroende__C25__ . Om koden X behöver annan kod Y för att fungera, sägs kod X ha ett beroende till kod Y.
+Ett äldre fönstersystem är X Window System (ofta kallat __C1113____C1114__X__C1115__).	An older windowing system is the X Window System (often called __C1113____C1114__X__C1115__).
 Ett äldre fönstersystem är X Window System (ofta kallat __C1115____C1116__X__C1117__).	An older windowing system is the X Window System (often called __C1115____C1116__X__C1117__).
 Ett äpple består av ett rött block och finns på en slumpvis position.	An apple consists of a red block and is located at a random position.
 Ett äpple kan ätas av en orm om ormens huvud träffar äpplet.	An apple can be eaten by a snake if the snake's head touches the apple.
@@ -4763,6 +4789,7 @@ Evalueringen av uttrycket __C621__ fördröjs tills varje förekomst av paramete
 Evalueringsordningen kan styras med parenteser.	The evaluation order can be controlled with parentheses.
 Evalueringsordningen kan styras med parenteser. Vilket värde och vilken typ har följande uttryck?	The evaluation order can be controlled with parentheses. What value and type does the following expression have?
 Ex: __C1000__ finns i __C1001__, så __C1002__ går att köra.	Example: __C1000__ is in __C1001__, so __C1002__ can be run.
+Ex: __C1024__ finns i __C1025__, så __C1026__ går att köra.	Example __C1024__ exists in __C1025__, so __C1026__ can be run.
 Ex: __C1026__ finns i __C1027__, så __C1028__ går att köra.	Example: __C1026__ is in __C1027__, so __C1028__ can be run.
 Exakt alla existerande värden i Scala är __C17____C18__objekt__C19__ som har en __C20____C21__typ__C22__.	All existing values in Scala are __C17__ __C18__objects__C19__ that have a __C20__ __C21__type__C22__.
 Exekvera koden och du bör finna att det tar längre tid att hitta värdet 1 i vårt Set s än i vektorn v.	Execute the code and you should find that it takes longer to find the value 1 in our Set s than in the vector v.
@@ -4994,6 +5021,7 @@ Exempel: __C13__\nEn uppräkning av färger i en kortlek med __C14__:\n__C15__\n
 Exempel: __C292__ __C293__Färg kan vara antingen Röd __C294____C295__ELLER__C296__ Svart.	Example:  __C292__ __C293__Color can be either Red __C294__ __C295__OR__C296__ Black.
 Exempel: __C323____C324__deklaration	Example: __C323__ __C324__ declaration
 Exempel: __C324__ __C325__Färg kan vara antingen Röd __C326____C327__ELLER__C328__ Svart.	Example: __C324__ __C325__Color can be either Red __C326____C327__OR__C328__ Black.
+Exempel: __C326__, __C327__, __C328__, __C329__,	Example: __C326__, __C327__, __C328__, __C329__,
 Exempel: __C328__, __C329__, __C330__, __C331__,	Example: __C328__, __C329__, __C330__, __C331__,
 Exempel: __C331____C332__deklaration	Exempel: __C331____C332__deklaration
 Exempel: __C334__ __C335__Färg kan vara antingen Röd __C336____C337__ELLER__C338__ Svart.	Example: __C334__ __C335__Color can be either Red __C336____C337__OR__C338__ Black.
@@ -5039,6 +5067,7 @@ Exempel: Överskuggning och	Example: Overlapping and
 Exempel: Överskuggning och __C1021____C1022__\n  __C1023____C1024__\n__C1025__\n__C1026__\n__C1027____C1028__Exempel: Överskuggning och	Example: Overlapping and __C1021____C1022__\n  __C1023____C1024__\n__C1025__\n__C1026__\n__C1027____C1028__Example: Overlapping and
 Exempel: Överskuggning och __C625____C626__\n  __C627____C628__\n__C629__\n__C630__\n__C631____C632__Exempel: Överskuggning och	Example: Overlapping and __C625____C626__\n  __C627____C628__\n__C629__\n__C630__\n__C631____C632__Example: Overlapping and
 Exempel:__C1058__\n__C1059__\n    __C1060____C1061____C1062____C1063__Öppnar __C1064__ i bakgrunden, terminalen blir omedelbart tillgänglig för nya kommandon.	Example:__C1058__\n__C1059__\n    __C1060____C1061____C1062____C1063__Opens __C1064__ in the background, making the terminal immediately available for new commands.
+Exempel:__C1082__\n__C1083__\n    __C1084____C1085____C1086____C1087__Öppnar __C1088__ i bakgrunden, terminalen blir omedelbart tillgänglig för nya kommandon.	Example: __C1082__\n__C1083__\n    __C1084____C1085____C1086____C1087__Opens __C1088__ in the background, the terminal becomes immediately available for new commands.
 Exempel:__C1084__\n__C1085__\n    __C1086____C1087____C1088____C1089__Öppnar __C1090__ i bakgrunden, terminalen blir omedelbart tillgänglig för nya kommandon.	Example:__C1084__\n__C1085__\n    __C1086____C1087____C1088____C1089__Opens __C1090__ in the background, making the terminal immediately available for new commands.
 Exempel:__C997__\n__C998__\n    __C999____C1000____C1001____C1002__Öppnar __C1003__ i bakgrunden, terminalen blir omedelbart tillgänglig för nya kommandon.	Example:__C997__\n__C998__\n    __C999____C1000____C1001____C1002__Opens __C1003__ in the background, making the terminal immediately available for new commands.
 Exempel__C1054__:	Example__C1054__:
@@ -5156,9 +5185,13 @@ Filen ska innehålla följande rader:	The file should contain the following line
 Filen ska se ut så här:	The file should look like this:
 Filer i Unix/Linux	Files in Unix/Linux
 Filer ligger alltid i en __C0__ , även kallad __C1__ .	Files always reside in a __C0__, also known as a __C1__.
+Filer ligger alltid i en __C307____C308__katalog__C309__ , även kallad __C310____C311__mapp__C312__ .	Filer ligger alltid i en __C307____C308__katalog__C309__ , även kallad __C310____C311__mapp__C312__ .
 Filer ligger alltid i en __C309____C310__katalog__C311__ , även kallad __C312____C313__mapp__C314__ .	Filer ligger alltid i en __C309____C310__katalog__C311__ , även kallad __C312____C313__mapp__C314__ .
 Filer och kataloger	Files and Directories
+Filer och kataloger lagras på __C314____C315__permanent__C316__ minne (hårddisk, SSD, USB-minne, __C317__).	Filer och kataloger lagras på __C314____C315__permanent__C316__ minne (hårddisk, SSD, USB-minne, __C317__).
 Filer och kataloger lagras på __C316____C317__permanent__C318__ minne (hårddisk, SSD, USB-minne, __C319__).	Files and folders are stored on __C316__ __C317__ permanent __C318__ memory (hard disk, SSD, USB drive, __C319__).
+Filnamn börjar med punkt och är dolda, s.k. __C0__.	File names start with a dot and are hidden, so-called __C0__.
+Filnamn börjar med punkt och är dolda, s.k. __C945____C946__punktfiler__C947__.	Filnamn börjar med punkt och är dolda, s.k. __C945____C946__punktfiler__C947__.
 Filnamn börjar med punkt och är dolda, s.k. __C947____C948__punktfiler__C949__.	File names start with a dot and are hidden, so-called __C947__ __C948__dot files__C949__.
 Filnamn i Unix/Linux:	File names in Unix/Linux:
 Filnamn i Unix/Linux:\n__C297____C298__\n    __C299____C300____C301____C302__Exempel: __C303__, __C304__, __C305__, __C306__,  __C307____C308__\n    __C309____C310__Tillägget är bara en extra upplysning; filtypen bestäms av det program som läser filen.__C311__\n    __C312____C313__Filnamn kan sakna tillägg, exempel:	File names in Unix/Linux:\n__C297____C298__\n    __C299____C300____C301____C302__Examples: __C303__, __C304__, __C305__, __C306__,  __C307____C308__\n    __C309____C310__The extension is just an extra piece of information; the file type is determined by the program that reads the file.__C311__\n    __C312____C313__File names can omit extensions, example:
@@ -5487,6 +5520,7 @@ Färre än __C182__.	Fewer than __C182__.
 Få en inblick i hur rekursion kan användas, utöver svans-rekursion.	Get a glimpse of how recursion can be used beyond tail-recursion.
 Få hjälp och redovisa på resurstid	Get help and present on resource time
 Få hjälp och redovisa på resurstid\n	__C107__\n__C108__\n__C109____C110__Vid frågor\tGet help and submit on resource time\n\t__C107__\n__C108__\n__C109____C110__For questions
+Få hjälp och redovisa på resurstid\n\t__C105__\n__C106__\n__C107____C108__Vid frågor	Get help and report on resource time\n\t__C105__\n__C106__\n__C107____C108__For questions
 Få hjälp och redovisa på resurstid\n\t__C107__\n__C108__\n__C109____C110__Vid frågor	Get help and report on resource time\n\t__C107__\n__C108__\n__C109____C110__For questions
 Fågel i generell, kollektiv bemärkelse kallas på gammal skånska för Fyle.	Bird in general, collective notice is called on old scouse for Fyle.
 Fånga blockmasken.	Catch the block mask.
@@ -6109,6 +6143,7 @@ Genom de namn som definieras skapas __C1043____C1044__återanvändbara abstrakti
 Genom de namn som definieras skapas __C1121____C1122__återanvändbara abstraktioner__C1123__ som kapslar in det funktionen gör.	Through the names that are defined, __C1121__ __C1122__reusable abstractions__C1123__ are created that encapsulate what the function does.
 Genom de namn som definieras skapas __C1140____C1141__återanvändbara abstraktioner__C1142__ som kapslar in det funktionen gör.	Genom de namn som definieras skapas __C1140____C1141__återanvändbara abstraktioner__C1142__ som kapslar in det funktionen gör.
 Genom de namn som definieras skapas __C1542____C1543__återanvändbara abstraktioner__C1544__ som kapslar in det funktionen gör till ett ''byggblock''.	Genom de namn som definieras skapas __C1542____C1543__återanvändbara abstraktioner__C1544__ som kapslar in det funktionen gör till ett ''byggblock''.
+Genom de namn som definieras skapas __C1619____C1620__återanvändbara abstraktioner__C1621__ som kapslar in det funktionen gör till ett ''byggblock''.	Genom de namn som definieras skapas __C1619____C1620__återanvändbara abstraktioner__C1621__ som kapslar in det funktionen gör till ett ''byggblock''.
 Genom de namn som definieras skapas __C1640____C1641__återanvändbara abstraktioner__C1642__ som kapslar in det funktionen gör till ett ''byggblock''.	Genom de namn som definieras skapas __C1640____C1641__återanvändbara abstraktioner__C1642__ som kapslar in det funktionen gör till ett ''byggblock''.
 Genom de namn som definieras skapas __C1646____C1647__återanvändbara abstraktioner__C1648__ som kapslar in det funktionen gör till ett ''byggblock''.	Genom de namn som definieras skapas __C1646____C1647__återanvändbara abstraktioner__C1648__ som kapslar in det funktionen gör till ett ''byggblock''.
 Genom olika kommandon i terminalen, eller via en klient med ett grafiskt användargränssnitt, kan din kod överföras till och från den lokala koddatabasen, alternativt delas med andra repon via nätet.	Through various commands in the terminal, or via a client with a graphical user interface, your code can be transferred to and from the local code database, alternatively shared with others via the network.
@@ -6141,6 +6176,7 @@ Gimp	GIMP
 Git Bash:	Git Bash:
 Git Bash:__C559__\n    __C560__\n        __C561____C562__Enkel Bash-tillgång, minimal konfiguration.__C563__\n        __C564____C565__Installeras med Git för Windows.	Git Bash:__C559__\n    __C560__\n        __C561____C562__Simple Bash access, minimal configuration.__C563__\n        __C564____C565__Installed with Git for Windows.
 Git Bash__C638__: Grundläggande Bash och Git. (Rekommenderas)	Git Bash__C638__: Basic Bash and Git. (Recommended)
+Git Bash__C640__: Grundläggande Bash och Git. (Rekommenderas)	Git Bash__C640__: Basic Bash and Git. (Recommended)
 Git Bash__C642__: Grundläggande Bash och Git. (Rekommenderas)	Git Bash__C642__: Basic Bash and Git. (Recommended)
 Git Reset	Git Reset
 Git and GitHub for Poets	Git and GitHub for Beginners
@@ -6195,6 +6231,7 @@ Google tillkännagav 2013 att företaget övergår från Eclipse till IntelliJ s
 Grace Hopper uppfann __C107____C108__kompilatorn__C109__ 1952.	Grace Hopper uppfann __C107____C108__kompilatorn__C109__ 1952.
 Grace Hopper uppfann kompilatorn 1952.	Grace Hopper invented the compiler in 1952.
 Graf över spelets totala mängd pengar som funktion av rundornas index.	Graph of the game's total amount of money as a function of the wheels' index.
+Grafikbiblioteket i __C1655____C1656____C1657____C1658__ i ett fristående Scala program med vscode och exekvering i terminalen, se __C1659____C1660__Appendix A.__C1661__ __C1662____C1663__Fungerar fint med nya Scala 3__C1664__.	The graphics library in __C1655__ __C1656__ __C1657__ __C1658__ in a standalone Scala program with vscode and execution in the terminal, see __C1659__ __C1660__Appendix A.__C1661__ __C1662____C1663__ Works fine with new Scala 3 __C1664__.
 Grafikbiblioteket i __C1676____C1677____C1678____C1679__ i ett fristående Scala program med vscode och exekvering i terminalen, se __C1680____C1681__Appendix A.__C1682__ __C1683____C1684__Fungerar fint med nya Scala 3__C1685__.	The graphics library in __C1676__ __C1677__ __C1678__ __C1679__ in a standalone Scala program with vscode and execution in the terminal, see __C1680__ __C1681__ Appendix A. __C1682__ __C1683__ __C1684__ Works fine with new Scala 3 __C1685__.
 Grafikbiblioteket i __C1682____C1683____C1684____C1685__ i ett fristående Scala program med vscode och exekvering i terminalen, se __C1686____C1687__Appendix A.__C1688__ __C1689____C1690__Fungerar fint med nya Scala 3__C1691__.	The graphics library in __C1682__ __C1683__ __C1684__ __C1685__ in a standalone Scala program with vscode and execution in the terminal, see __C1686__ __C1687__ Appendix A. __C1688__ __C1689__ __C1690__ Works fine with new Scala 3 __C1691__.
 Granska din kod enligt checklistan i tidigare tipsruta. Testa din funktion för de olika fallen: tom sekvens, sekvens med exakt ett element, sekvens med många element.	Review your code according to the checklist in the previous tip box. Test your function for the different cases: empty sequence, sequence with exactly one element, sequence with many elements.
@@ -6408,6 +6445,7 @@ Gör om implementation så att du i stället använder __C162__ och __C163__. Te
 Gör om implementation så att du i stället använder __C169__ och __C170__. Testa så att det fungerar som innan.	Rewrite the implementation so that you instead use __C169__ and __C170__. Test to make sure it works as before.
 Gör om implementation så att du i stället använder __C169__ och __C170__. Testa så att det fungerar som innan. Vilken implementation är smidigast?\n__C171__\nobject Cell __C172__\n  import scala.util.__C173__Try, Success, Failure	Rewrite the implementation so that you instead use __C169__ and __C170__. Test to make sure it works as before. Which implementation is most convenient?\n__C171__\nobject Cell __C172__\n  import scala.util.__C173__Try, Success, Failure
 Gör om implementation så att du i stället använder __C175__ och __C176__. Testa så att det fungerar som innan. Vilken implementation är smidigast?\n__C177__\nobject Cell __C178__\n  import scala.util.__C179__Try, Success, Failure	Rewrite the implementation so that you instead use __C175__ and __C176__. Test to make sure it works as before. Which implementation is most convenient?\n__C177__\nobject Cell __C178__\n  import scala.util.__C179__Try, Success, Failure
+Gör om senaste kommando som inleds med __C889__.	Redo the last command that starts with __C889__.
 Gör om senaste kommando som inleds med __C891__.	Rewrite the last command that starts with __C891__.
 Gör om senaste kommando.	Redo the last command.
 Gör primärkonstruktorn i case-klassen __C222__ __C223____C224__privat__C225__, genom att skriva nyckelordet __C226__ efter klassnamnet men före klassparameterlistan, så att det inte går att skapa instanser via primärkonstruktorn utanför klasskroppen och kompanjonsobjektet.	Make the primary constructor in the case class __C222__ __C223____C224__private__C225__, by writing the keyword __C226__ after the class name but before the parameter list, so that it is not possible to create instances via the primary constructor outside the class body and the companion object.
@@ -6553,6 +6591,7 @@ Heltalsdivision__C935__ sker med __C936____C937__decimaler avkortade__C938__:	In
 Heltalsdivision__C937__ sker med __C938____C939__decimaler avkortade__C940__:	Integer division__C937__ occurs with __C938____C939__ decimal places truncated__C940__:
 Heltalsdivision__C945__ sker med __C946____C947__decimaler avkortade__C948__:	Integer division__C945__ occurs with __C946____C947__ decimal places truncated__C948__:
 Heltalsdivision__C985__ sker med __C986____C987__decimaler avkortade__C988__:	Integer division__C985__ occurs with __C986____C987__ decimal places truncated__C988__:
+Hemkatalog (tilde)              __C448__\n            __C449__ __C450__ Användarens hemkatalog (tilde user)          __C451__\n            __C452__    __C453__ Aktuell katalog (punkt)         __C454__\n            __C455__   __C456__ Överordnad katalog (punktpunkt)	Home directory (tilde)              __C448__\n            __C449__ __C450__ User's home directory (tilde user)          __C451__\n            __C452__    __C453__ Current directory (dot)         __C454__\n            __C455__   __C456__ Parent directory (..)
 Hemkatalog (tilde)              __C450__\n            __C451__ __C452__ Användarens hemkatalog (tilde user)          __C453__\n            __C454__    __C455__ Aktuell katalog (punkt)         __C456__\n            __C457__   __C458__ Överordnad katalog (punktpunkt)	Home directory (tilde)              __C450__\n            __C451__ __C452__ User's home directory (tilde user)          __C453__\n            __C454__    __C455__ Current directory (dot)         __C456__\n            __C457__   __C458__ Parent directory (..)
 Hexadecimal (bas 16) - använder siffror 0-9 och bokstäverna A-F.	Hexadecimal (base 16) - uses digits 0-9 and the letters A-F.
 Hexadecimala Tal	Hexadecimal Numbers
@@ -6979,6 +7018,7 @@ I Scalas standardbibliotek har man överskuggat __C91__ så att metoden __C92__ 
 I Ubuntu trycker du lättast __C0__ eller sök efter ''terminal'' i app-menyn.	In Ubuntu you can easiest press __C0__ or search for ''terminal'' in the app menu.
 I Ubuntu trycker du lättast __C20____C21__Ctrl+Alt+T__C22__ eller sök efter ''terminal'' i app-menyn.	I Ubuntu trycker du lättast __C20____C21__Ctrl+Alt+T__C22__ eller sök efter ''terminal'' i app-menyn.
 I Ubuntu trycker du lättast __C20____C21__Ctrl+Alt+T__C22__ eller sök efter ''terminal'' i app-menyn.  Då öppnas ett fönster med en blinkande markör som visar att det är redo att ta emot dina textkommando. Ett exempel på kommando är __C23__ som skriver ut en lista med filer i den aktuella katalogen, så som visas i fig. __C24__.	In Ubuntu, you press __C20____C21__Ctrl+Alt+T__C22__ or search for ``terminal'' in the application menu. Then an window with a blinking cursor opens, indicating it is ready to receive your text commands. An example of a command is __C23__ which prints out a list of files in the current directory, as shown in figure __C24__.
+I Ubuntu: Tryck på windowsknappen och skriv ''help'' så får du fram __C1143____C1144__Ubuntu Desktop Guide__C1145__ med en översikt av skrivbordsmiljön.	In Ubuntu: Press the Windows key and type ''help'' to get the __C1143__ __C1144__ Ubuntu Desktop Guide __C1145__ with an overview of the desktop environment.
 I Ubuntu: Tryck på windowsknappen och skriv ''help'' så får du fram __C1145____C1146__Ubuntu Desktop Guide__C1147__ med en översikt av skrivbordsmiljön.	In Ubuntu: Press the window button and type ''help'' to get the __C1145__ __C1146__ Ubuntu Desktop Guide __C1147__ with an overview of the desktop environment.
 I Unix och Linux är fönstersystemet inte inbyggt (Unix utvecklades långt innan det fanns grafiska skärmar).	In Unix and Linux, the window system is not built-in (Unix was developed long before graphical screens existed).
 I VS Code ska vi klona ditt repositorium igen, och alltså ha två kloner på olika ställen på din dator; en som vi arbetar med i terminalen och en som vi arbetar med i VS Code.	In VS Code, we will clone your repository again, and thus have two clones in different places on your computer; one that we work with in the terminal and one that we work with in VS Code.
@@ -6988,6 +7028,7 @@ I __C0__ är det __C1__: symbolen __C2__ är ingen metod i Java utan __C3__ som 
 I __C101____C102__skriver man text och formateringskommandon i en textfil.	I __C101____C102__skriver man text och formateringskommandon i en textfil.
 I __C1232__ används  t.ex.  __C1233____C1234__\n__C1235__  __C1236__ eller	I __C1232__ används  t.ex.  __C1233____C1234__\n__C1235__  __C1236__ eller
 I __C1234__ används  t.ex.  __C1235____C1236__\n__C1237__  __C1238__ eller	I __C1234__ uses  for example  __C1235__ __C1236__\n__C1237__ __C1238__ or
+I __C1268__ används  t.ex.  __C1269____C1270__\n__C1271__  __C1272__ eller	I __C1268__ används  t.ex.  __C1269____C1270__\n__C1271__  __C1272__ eller
 I __C1289__ används  t.ex.  __C1290____C1291__\n__C1292__  __C1293__ eller	In __C1289__ we use for example __C1290__ __C1291__\n__C1292__  __C1293__ or
 I __C1290__ används  t.ex.  __C1291____C1292__\n__C1293__  __C1294__ eller	I __C1290__ uses  for example  __C1291____C1292__\n__C1293__  __C1294__ or
 I __C1295__ används  t.ex.  __C1296____C1297__\n__C1298__  __C1299__ eller	I __C1295__ uses  for example  __C1296____C1297__\n__C1298__  __C1299__ or
@@ -7149,6 +7190,7 @@ I klassen __C504____C505____C506____C507____C508__ finns en statisk metod __C509
 I kod som körs i skarpt läge med många användare (s.k. produktionskod) är därför __C0__ att föredra, medan __C1__ endast används om det __C2__ behövs.	In code that runs in production with many users, it is therefore __C0__ preferable, while __C1__ is only used if __C2__ necessary.
 I kod som körs i skarpt läge med många användare (s.k. produktionskod) är därför __C1435__ att föredra, medan __C1436__ endast används om det __C1437____C1438__verkligen__C1439__ behövs.	In code that runs in production with many users, it is therefore __C1435__ to prefer, while __C1436__ is only used if it __C1437____C1438__really__C1439__ needs.
 I kod som körs i skarpt läge med många användare (s.k. produktionskod) är därför __C1438__ att föredra, medan __C1439__ endast används om det __C1440____C1441__verkligen__C1442__ behövs.	I kod som körs i skarpt läge med många användare (s.k. produktionskod) är därför __C1438__ att föredra, medan __C1439__ endast används om det __C1440____C1441__verkligen__C1442__ behövs.
+I kod som körs i skarpt läge med många användare (s.k. produktionskod) är därför __C1474__ att föredra, medan __C1475__ endast används om det __C1476____C1477__verkligen__C1478__ behövs.	In code that runs in production with many users, it is therefore __C1474__ to prefer, while __C1475__ is only used if it __C1476__ __C1477__really__C1478__ needs.
 I kod som körs i skarpt läge med många användare (s.k. produktionskod) är därför __C1495__ att föredra, medan __C1496__ endast används om det __C1497____C1498__verkligen__C1499__ behövs.	In code that runs in production with many users, it is therefore __C1495__ to prefer, while __C1496__ is only used if it __C1497__ __C1498__really__C1499__ needs.
 I kod som körs i skarpt läge med många användare (s.k. produktionskod) är därför __C1501__ att föredra, medan __C1502__ endast används om det __C1503____C1504__verkligen__C1505__ behövs.	In code that runs in production with many users, it is therefore __C1501__ to prefer, while __C1502__ is only used if it __C1503__ __C1504__ really __C1505__ needs.
 I kod som körs i skarpt läge med många användare (s.k. produktionskod) är därför __C1502__ att föredra, medan __C1503__ endast används om det __C1504____C1505__verkligen__C1506__ behövs.	In code that runs in production with many users, it is therefore __C1502__ to prefer, while __C1503__ is only used if it __C1504__ __C1505__ really __C1506__ needs.
@@ -7704,6 +7746,7 @@ Inbyggd metod för blandning.	Built-in method for shuffling.
 Inbyggda metoder för sortering.	Built-in sorting methods.
 Inbyggda__C1001____C1002__Kör direkt i kommandotolken (t.ex. __C1003__, __C1004__, __C1005__).	Built-in __C1001____C1002__Run directly in the console (__C1003__, __C1004__, __C1005__).
 Inbyggda__C975____C976__Kör direkt i kommandotolken (t.ex. __C977__, __C978__, __C979__).	Built-in __C975__ __C976__Run directly in the console (e.g., __C977__, __C978__, __C979__).
+Inbyggda__C999____C1000__Kör direkt i kommandotolken (t.ex. __C1001__, __C1002__, __C1003__).	Built-in__C999____C1000__Run directly in the command prompt (e.g., __C1001__, __C1002__, __C1003__).
 Indata och utdata för några vanliga sekvensproblem:\n__C0__\nÖvning: Hur implementera dessa med __C1__-uttryck eller färdiga samlingsmetoder?__C2__\n__C3__ För __C4____C5____C6__ se __C7__, __C8__, __C9__ i	Input and output for some common sequence problems:\n__C0__\nExercise: How to implement these with __C1__-expressions or ready-made collection methods?__C2__\n__C3__ For __C4____C5____C6__ see __C7__, __C8__, __C9__ in
 Indata och utdata för några vanliga sekvensproblem:\n__C654__\nÖvning: Hur implementera dessa med __C655__-uttryck eller färdiga samlingsmetoder?__C656__\n__C657____C658__Tips:__C659__ För __C660____C661____C662__ se __C663__, __C664__, __C665__ i	Input and output for some common sequence problems:\n__C654__\nExercise: How to implement these with __C655__-expressions or ready collection methods?__C656__\n__C657____C658__Tips:__C659__ For __C660____C661____C662__ see __C663__, __C664__, __C665__ in
 Indata och utdata för några vanliga sekvensproblem:\n__C668__\nÖvning: Hur implementera dessa med __C669__-uttryck eller färdiga samlingsmetoder?__C670__\n__C671____C672__Tips:__C673__ För __C674____C675____C676__ se __C677__, __C678__, __C679__ i	Input and output for some common sequence problems:\n__C668__\nExercise: How implement these with __C669__-expressions or ready-made collection methods?__C670__\n__C671____C672__Hint:__C673__ For __C674____C675____C676__ see __C677__, __C678__, __C679__ in
@@ -8280,6 +8323,7 @@ Kasta undantag.	Throw exceptions.
 Kasten ska vara sorterade i växande ordning; använd för detta ändamål samlingsmetoden __C125__.	The array should be sorted in ascending order; use the collection method __C125__ for this purpose.
 Kataloger	Directories
 Kataloger kan innehålla underkataloger, så man får en hierarkisk struktur, ett __C0__:\n    __C1__\n        __C2____C3__!__C4____C5__0.5	Catalogs can contain subcatalogs, so you get a hierarchical structure, a __C0__:\n    __C1__\n        __C2____C3__!__C4____C5__0.5
+Kataloger kan innehålla underkataloger, så man får en hierarkisk struktur, ett __C345____C346__filträd__C347__:\n    __C348__\n        __C349____C350__!__C351____C352__0.5	Catalogs can contain subcatalogs, so you get a hierarchical structure, a __C345__ __C346__filtered__C347__:\n    __C348__\n        __C349__ __C350__!__C351__ __C352__0.5
 Kataloger kan innehålla underkataloger, så man får en hierarkisk struktur, ett __C347____C348__filträd__C349__:\n    __C350__\n        __C351____C352__!__C353____C354__0.5	Kataloger kan innehålla underkataloger, så man får en hierarkisk struktur, ett __C347____C348__filträd__C349__:\n    __C350__\n        __C351____C352__!__C353____C354__0.5
 Kataloghantering	Directory Management
 Kataloghantering__C722____C723__\n    Exempel på kommandon för att hantera kataloger:	Directory Management__C722____C723__\n    Examples of commands for directory management:
@@ -8418,6 +8462,7 @@ Kod i klasskroppen i Scalaklassen, så som if-satsen på rad 4, placeras i lämp
 Kod i labbar ska vara på engelska. Detta signalerar att när man kodar för att det ska bli något bestående, då kodar man på engelska.	Code in labs should be in English. This signals that when coding for something substantial, one should code in English.
 Kod som innehåller variabler som __C1429____C1430__förändras__C1431__ över tid är ofta svårare att läsa och begripa.	Code that contains variables that __C1429__ __C1430__ change __C1431__ over time is often harder to read and understand.
 Kod som innehåller variabler som __C1432____C1433__förändras__C1434__ över tid är ofta svårare att läsa och begripa.	Code that contains variables that __C1432__ __C1433__ change __C1434__ over time is often harder to read and understand.
+Kod som innehåller variabler som __C1468____C1469__förändras__C1470__ över tid är ofta svårare att läsa och begripa.	Code that contains variables that __C1468__ __C1469__ change __C1470__ over time is often harder to read and understand.
 Kod som innehåller variabler som __C1489____C1490__förändras__C1491__ över tid är ofta svårare att läsa och begripa.	Code that contains variables that __C1489__ __C1490__ change __C1491__ over time is often harder to read and understand.
 Kod som innehåller variabler som __C1495____C1496__förändras__C1497__ över tid är ofta svårare att läsa och begripa.	Code that contains variables that __C1495__ __C1496__ change __C1497__ over time is often harder to read and understand.
 Kod som innehåller variabler som __C1496____C1497__förändras__C1498__ över tid är ofta svårare att läsa och begripa.	Code that contains variables that __C1496__ __C1497__ change __C1498__ over time is often harder to read and understand.
@@ -8558,9 +8603,11 @@ Kommandot för att leta i en fil heter __C153__. Se manualen med __C154__.	The c
 Kommandot talar om vad som ska göras.	The command describes what should be done.
 Kommandotolk	Command interpreter
 Kommandotolk (shell, ''skal'') och terminal	Command interpreter (shell, ``scal'') and terminal
+Kommandotolk (terminalfönster)__C257__\n    __C258__\n    __C259____C260__Unix är:	Command Line (Terminal Window) __C257__\n    __C258__\n    __C259____C260__ Unix is:
 Kommandotolk (terminalfönster)__C259__\n    __C260__\n    __C261____C262__Unix är:	Command Line (Terminal Window) __C259__\n    __C260__\n    __C261____C262__ Unix is:
 Kommandotolk__C467__: __C468__För kommunikation med operativsystemet via kommandon	Command interpreter__C467__: __C468__For communication with the operating system via commands
 Kommandotolk__C500__: __C501__För kommunikation med operativsystemet via kommandon	Command interpreter__C500__: __C501__For communication with the operating system via commands
+Kommandotolk__C502__: __C503__För kommunikation med operativsystemet via kommandon	Kommandotolk__C502__: __C503__För kommunikation med operativsystemet via kommandon
 Kommandotolk__C504__: __C505__För kommunikation med operativsystemet via kommandon	Command interpreter__C504__: __C505__For communication with the operating system through commands
 Kommandoverktyg för terminalen:	Command-line tools for the terminal:
 Kommer varningen vid körtid eller vid kompilering?	Does the warning occur at runtime or during compilation?
@@ -8655,6 +8702,7 @@ Kompilera med __C123__. Vad heter filerna som kompilatorn skapar?	Compile with _
 Kompilera med __C919__ och kör med __C920__ och förklara vad som händer.	Compile with __C919__ and run with __C920__ and explain what happens.
 Kompilera med __C944__ och kör med __C945__ och förklara vad som händer.	Compile with __C944__ and run with __C945__ and explain what happens.
 Kompilera med __C958__ och kör med __C959__ och förklara vad som händer.	Compile with __C958__ and run with __C959__ and explain what happens.
+Kompilera och kör __C684____C685__\n        __C686__        __C687__ Kompilera och kör alla Scala-filer i aktuell katalog och alla dess underkataloger__C688__\n        __C689__ __C690__ Kopierar __C691__ till __C692__. __C693__ betyder att systemet frågar om __C694__ ska skrivas över, om den redan finns.	Compile and run __C684__ __C685__\n        __C686__        __C687__ Compile and run all Scala files in the current directory and all its subdirectories __C688__\n        __C689__ __C690__ Copies __C691__ to __C692__. __C693__ means that the system asks if __C694__ should be overwritten, if it already exists.
 Kompilera och kör __C686____C687__\n        __C688__        __C689__ Kompilera och kör alla Scala-filer i aktuell katalog och alla dess underkataloger__C690__\n        __C691__ __C692__ Kopierar __C693__ till __C694__. __C695__ betyder att systemet frågar om __C696__ ska skrivas över, om den redan finns.	Compile and run __C686____C687__\n        __C688__        __C689__ Compile and run all Scala files in the current directory and all its subdirectories__C690__\n        __C691__ __C692__ Copies __C693__ to __C694__. __C695__ means that the system asks if __C696__ should be overwritten if it already exists.
 Kompilera och kör alla kodfiler i aktuell katalog.	Compile and run all code files in the current directory.
 Kompilera och kör ditt program för att gräva tunnlar med din blockmullvad.	Compile and run your program to dig tunnels with your block mole.
@@ -8771,6 +8819,7 @@ Kontrollpunkter__C232__. Vid några laborationsuppgifter finns en ögonsymbol me
 Kontrollpunkter__C232__. Vid några laborationsuppgifter finns en ögonsymbol med en bock i marginalen. Detta innebär att du nått en kontrollpunkt där du ska diskutera dina resultat med en handledare. Räck upp handen och visa vad du gjort innan du fortsätter. Om det är lång väntan innan  handledaren kan komma så är det ok att ändå gå vidare, men glöm inte att senare diskutera med handledaren så att ni gemensamt säkerställer att du förstått alla delresultat. Dialogen med din handledare är en viktig chans till återkoppling på din kod -- ta vara på den!	Checkpoints__C232__. In some laboratory tasks, there is an eye symbol with a mouse in the margin. This means you have reached a checkpoint where you should discuss your results with a supervisor. Raise your hand and show what you've done before continuing. If there is a long wait for the supervisor to arrive, it's okay to proceed further, but don't forget to later discuss with the supervisor so that together you ensure you understand all partial results. The dialogue with your supervisor is an important chance for feedback on your code—take advantage of it!
 Kontrollpunkter__C236__. Vid några laborationsuppgifter finns en ögonsymbol med en bock i marginalen. Detta innebär att du nått en kontrollpunkt där du ska diskutera dina resultat med en handledare. Räck upp handen och visa vad du gjort innan du fortsätter. Om det är lång väntan innan  handledaren kan komma så är det ok att ändå gå vidare, men glöm inte att senare diskutera med handledaren så att ni gemensamt säkerställer att du förstått alla delresultat. Dialogen med din handledare är en viktig chans till återkoppling på din kod -- ta vara på den!	Checkpoints__C236__. In some laboratory tasks, there is an eye symbol with a mouse in the margin. This means you have reached a checkpoint where you should discuss your results with a supervisor. Raise your hand and show what you've done before continuing. If there's a long wait for the supervisor to arrive, it's okay to proceed further, but don't forget to later discuss with the supervisor so that together you ensure you understand all partial results. The dialogue with your supervisor is an important chance for feedback on your code—take advantage of it!
 Kontrollstrukturer	Control Structures
+Kontrollstrukturer kan ge __C1493____C1494__alternativa__C1495__ vägar genom koden.	Control structures can give __C1493__ __C1494__ alternative __C1495__ paths through the code.
 Kontrollstrukturer kan ge __C1514____C1515__alternativa__C1516__ vägar genom koden.	Control structures can give __C1514__ __C1515__ alternative __C1516__ paths through the code.
 Kontrollstrukturer kan ge __C1520____C1521__alternativa__C1522__ vägar genom koden.	Control structures can give __C1520__ __C1521__ alternative __C1522__ paths through the code.
 Kontrollstrukturer kan ge __C1521____C1522__alternativa__C1523__ vägar genom koden.	Control structures can give __C1521__ __C1522__ alternative __C1523__ paths through the code.
@@ -8784,6 +8833,7 @@ Koordinatsystem i __C166__ ska ha kvadratiska, __C167____C168__stora__C169__ bil
 Koordinatsystem i __C166__ ska ha kvadratiska, __C167____C168__stora__C169__ bildpunkter som består av många fönsterpixlar. \nVi kallar dessa stora bildpunkter för __C170____C171__block__C172__ för att lättare skilja dem från de enpixelstora bildpunkterna i __C173__.	Coordinate systems in __C166__ should have square, __C167____C168__-sized__C169__ block points consisting of many window pixels. \nWe call these large block points __C170____C171__block__C172__ for easier distinction from the single-pixel-sized block points in __C173__.
 Kopiera alla utom ett.	Copy all except one.
 Kopiera ett markerat textblock till en annan plats i filen. Flytta sedan ett markerat textblock.	Copy a marked text block to another location in the file. Then move a marked text block.
+Kopiera filen __C706__ till __C707__.                                                                                                                                 __C708__\n        __C709__      __C710__ Skriv ut __C711__ på skärmen, en sida i taget.	Copy the file __C706__ to __C707__.                                                                                                                                 __C708__\n        __C709__      __C710__ Print __C711__ to the screen, one page at a time.
 Kopiera filen __C708__ till __C709__.                                                                                                                                 __C710__\n        __C711__      __C712__ Skriv ut __C713__ på skärmen, en sida i taget.	Copy the file __C708__ to __C709__.                                                                 __C710__\n        __C711__      __C712__ Print __C713__ on the screen, one page at a time.
 Kopiera filen __C708__ till __C709__.                                                                                                                                 __C710__\n        __C711__      __C712__ Skriv ut __C713__ på skärmen, en sida i taget.                                                                                                                             __C714__\n        __C715__  __C716__ Skriv ut en innehållsförteckning över katalogen __C717__ (aktuell katalog om ingen katalog ges). __C718__ skriv i ett längre format, __C719__ skriv också ut punktfiler. __C720__\n        __C721__  __C722__ Döp om __C723__ till __C724__. Om __C725__ är en katalog så flyttas filen till den katalogen.                                                                       __C726__\n        __C727__   __C728__ Tag bort de angivna filerna.	Copy the file __C708__ to __C709__. __C710__\n       __C711__      __C712__ Print __C713__ on the screen, one page at a time.                                                                                                                             __C714__\n       __C715__  __C716__ Print a directory listing of folder __C717__ (current folder if no folder is given). __C718__ print in a longer format, __C719__ also print dot files. __C720__\n       __C721__  __C722__ Rename __C723__ to __C724__. If __C725__ is a directory, the file will be moved to that directory.                                                                       __C726__\n       __C727__   __C728__ Remove the specified files.
 Kopiera inte initieringsfiler utan att förstå innehållet!	Do not copy initialization files without understanding their content!
@@ -9110,6 +9160,7 @@ Kör rad för rad i Scala REPL (Read-Evaluate-Print-Loop):\n__C452__\n> scala\nW
 Kör rad för rad i Scala REPL (Read-Evaluate-Print-Loop):\n__C461__\n> scala\nWelcome to Scala 3.8.3 (21.0.5, Java OpenJDK 64-Bit Server VM).\nType in expressions for evaluation. Or try :help.	Run line by line in Scala REPL (Read-Evaluate-Print-Loop):\n__C461__\n> scala\nWelcome to Scala 3.8.3 (21.0.5, Java OpenJDK 64-Bit Server VM).\nType in expressions for evaluation. Or try :help.
 Kör rad för rad i Scala REPL (Read-Evaluate-Print-Loop):\n__C462__\n> scala\nWelcome to Scala 3.8.3 (21.0.5, Java OpenJDK 64-Bit Server VM).\nType in expressions for evaluation. Or try :help.	Run line by line in Scala REPL (Read-Evaluate-Print-Loop):\n__C462__\n> scala\nWelcome to Scala 3.8.3 (21.0.5, Java OpenJDK 64-Bit Server VM).\nType in expressions for evaluation. Or try :help.
 Köra egna program:__C1008__\n__C1009__\n__C1010____C1011__ Använd __C1012__ för program i den aktuella katalogen, eftersom __C1013__ inte ingår i __C1014__.	Run your own programs:__C1008__\n__C1009__\n__C1010____C1011__ Use __C1012__ for programs in the current directory, since __C1013__ is not included in __C1014__.
+Köra egna program:__C1032__\n__C1033__\n__C1034____C1035__ Använd __C1036__ för program i den aktuella katalogen, eftersom __C1037__ inte ingår i __C1038__.	Run your own programs:__C1032__\n__C1033__\n__C1034____C1035__ Use __C1036__ for programs in the current directory, since __C1037__ is not included in __C1038__.
 Köra egna program:__C1034__\n__C1035__\n__C1036____C1037__ Använd __C1038__ för program i den aktuella katalogen, eftersom __C1039__ inte ingår i __C1040__.	Run your own programs:__C1034__\n__C1035__\n__C1036____C1037__ Use __C1038__ for programs in the current directory, since __C1039__ is not included in __C1040__.
 Köra igång program inifrån VS Code.	Run the program inside VS Code.
 Köra program + kodbiblitek med Scala CLI	Run programs + libraries with Scala CLI
@@ -9312,6 +9363,7 @@ Likhetsjämförelser som sker mellan primitiva typer typkollas av kompilatorn oc
 Likhetstecknet används alltså för att __C0__ variabler nya värden och det är __C1__ samma sak som matematisk likhet.	The equals sign is therefore used to __C0__ variables new values and it is __C1__ the same thing as mathematical equality.
 Likhetstecknet används alltså för att __C1223____C1224__tilldela__C1225__ variabler nya värden och det är __C1226____C1227__inte__C1228__ samma sak som matematisk likhet.	Likhetstecknet används alltså för att __C1223____C1224__tilldela__C1225__ variabler nya värden och det är __C1226____C1227__inte__C1228__ samma sak som matematisk likhet.
 Likhetstecknet används alltså för att __C1225____C1226__tilldela__C1227__ variabler nya värden och det är __C1228____C1229__inte__C1230__ samma sak som matematisk likhet.	The equals sign is therefore used to __C1225__ __C1226__assign__C1227__ new values to variables and it is __C1228__ __C1229__not__C1230__ the same thing as mathematical equality.
+Likhetstecknet används alltså för att __C1259____C1260__tilldela__C1261__ variabler nya värden och det är __C1262____C1263__inte__C1264__ samma sak som matematisk likhet.	The equals sign is therefore used to __C1259__ __C1260__assign__C1261__ new values to variables and it is __C1262__ __C1263__not__C1264__ the same thing as mathematical equality.
 Likhetstecknet används alltså för att __C1280____C1281__tilldela__C1282__ variabler nya värden och det är __C1283____C1284__inte__C1285__ samma sak som matematisk likhet.	Likhetstecknet används alltså för att __C1280____C1281__tilldela__C1282__ variabler nya värden och det är __C1283____C1284__inte__C1285__ samma sak som matematisk likhet.
 Likhetstecknet används alltså för att __C1286____C1287__tilldela__C1288__ variabler nya värden och det är __C1289____C1290__inte__C1291__ samma sak som matematisk likhet.	Likhetstecknet används alltså för att __C1286____C1287__tilldela__C1288__ variabler nya värden och det är __C1289____C1290__inte__C1291__ samma sak som matematisk likhet.
 Liknande exempel från övningen Hangman:	Similar examples from the Hangman exercise:
@@ -9354,9 +9406,11 @@ Linjärsökning: hitta index för elementet x	Linear search algorithm: find the 
 Linjärsökning: hitta index för elementet x__C75__\nImplementera __C76__:\n__C77__\nUtdata: index __C78__ där __C79____C80__Om värde saknas. returnera __C81__\n__C82__\n__C83__\n(Är du nyfiken på binärsökning, se kapitel 12: Valfri fördjupning.)	Linear search: find index for element x__C75__\nImplement __C76__:\n__C77__\nOutput: index __C78__ where __C79____C80__If value is not found, return __C81__\n__C82__\n__C83__\n(Are you curious about binary search, see Chapter 12: Optional Deepening.)
 Linjärsökning: tiden är proportionell mot __C99__, skrivs:	Linear search algorithm: time is proportional to __C99__, written as:
 Linux och GNU	Linux and GNU
+Linux, Windows, Mac OS X, Unix, __C188____C189__\n        __C190__\n    __C191__\n__C192__\n__C193____C194__Unix historia	Linux, Windows, Mac OS X, Unix, __C188__ __C189__\n        __C190__\n    __C191__\n__C192__\n__C193__ __C194__Unix history
 Linux, Windows, Mac OS X, Unix, __C190____C191__\n        __C192__\n    __C193__\n__C194__\n__C195____C196__Unix historia	Linux, Windows, Mac OS X, Unix, __C190____C191__\n        __C192__\n    __C193__\n__C194__\n__C195____C196__Unix history
 Linux/Ubuntu och nyttiga terminalkommando	Linux/Ubuntu and useful terminal commands
 Linux__C1141__: __C1142__Installera LaTeX via den vanliga pakethanteraren (t.ex. __C1143__).	Linux__C1141__: __C1142__Install LaTeX via the usual package manager (e.g., __C1143__).
+Linux__C232__ används ofta som kortform för hela systemet.	Linux__C232__ is often used as a short form for the entire system.
 Linux__C234__ används ofta som kortform för hela systemet.	Linux__C234__ is often used as a shorthand for the entire system.
 Linux__C332__. Om du surfar till ovan sida från en Linux-dator syns några terminalkommando som du använder för att installera __C333____C334__i terminalen.	Linux__C332__. If you visit the above page from a computer running Linux, you will see some terminal commands that you use to install __C333____C334__ in the terminal.
 Linux__C338__. Om du surfar till ovan sida från en Linux-dator syns några terminalkommando som du använder för att installera __C339____C340__i terminalen.	Linux__C338__. If you navigate to the aforementioned page from a Linux computer, you will see some terminal commands that you use to install __C339____C340__ in the terminal.
@@ -9578,6 +9632,7 @@ Lär dig fler smidiga metoder i__C588__ __C589____C590__quickref	Learn more hand
 Lär dig fler smidiga metoder i__C597__ __C598____C599__quickref	Learn more handy methods in__C597__ __C598____C599__quickref
 Lär dig grundläggande verktyg.	Learn basic tools.
 Lär dig gärna kortkommandon för funktioner du använder extra ofta, se ''Tips __C1125__ Tricks -> Useful keyboard shortcuts'' i desktop-gajden.	Learn some handy keyboard shortcuts for functions you use extra often, see ``Tips __C1125__ Tricks -> Useful keyboard shortcuts'' in the desktop guide.
+Lär dig gärna kortkommandon för funktioner du använder extra ofta, se ''Tips __C1149__ Tricks -> Useful keyboard shortcuts'' i desktop-gajden.	Lär dig gärna kortkommandon för funktioner du använder extra ofta, se ''Tips __C1149__ Tricks -> Useful keyboard shortcuts'' i desktop-gajden.
 Lär dig gärna kortkommandon för funktioner du använder extra ofta, se ''Tips __C1151__ Tricks -> Useful keyboard shortcuts'' i desktop-gajden.	Learn some handy keyboard shortcuts for functions you use extra often, see ``Tips __C1151__ Tricks -> Useful keyboard shortcuts'' in the desktop guide.
 Lär dig hitta på hemsidan redan nu.	Learn to find your way on the website already.
 Lär dig kortkommandon för vanliga handgrepp.	Learn short commands for common gestures.
@@ -9605,6 +9660,7 @@ Läs här:\n__C1269__\noch ge ett exempel på vad mer man inte kan göra med en 
 Läs här:\n__C1319__\noch ge ett exempel på vad mer man inte kan göra med en array, förutom innehållslikhetstest.	Read here:\n__C1319__\nand give an example of what else you cannot do with an array besides structural equality testing.
 Läs här:\n__C1320__\noch ge ett exempel på vad mer man inte kan göra med en array, förutom innehållslikhetstest.	Read here:\n__C1320__\nand give an example of what more one cannot do with an array, except for structural equality.
 Läs här:\n__C988__\noch ge ett exempel på vad mer man inte kan göra med en array, förutom innehållslikhetstest.	Read here:\n__C988__\nand give an example of what else you cannot do with an array besides structural equality testing.
+Läs i Appendix__C1647__ och på kursens hemsida under ''Verktyg'' om hur du installerar och får igång Scala REPL.	Read in Appendix__C1647__ and on the course website under 'Tools' about how to install and get started with Scala REPL.
 Läs i Appendix__C1668__ och på kursens hemsida under ''Verktyg'' om hur du installerar och får igång Scala REPL.	Read in Appendix__C1668__ and on the course website under 'Tools' about how to install and get started with Scala REPL.
 Läs i Appendix__C1674__ och på kursens hemsida under ''Verktyg'' om hur du installerar och får igång Scala REPL.	Read in Appendix__C1674__ and on the course website under 'Tools' about how to install and get started with Scala REPL.
 Läs i Java-delen av snabbreferensen om __C1005__. Med __C1006__ skapas ett objekt som kan läsa in tal från teckensträngar som användaren skriver i terminalfönstret, så som visas i Java-programmet nedan:	Read about __C1005__ in the Java section of the quick reference. With __C1006__, an object is created that can read numbers from strings entered by the user in the terminal window, as shown in the Java program below:
@@ -10219,6 +10275,7 @@ Med en __C0__ kan man skapa __C1__ __C2__ med hjälp av nyckelordet __C3__ följ
 Med en __C0__ mängd kan man stegvis utöka på plats.	With a __C0__ set you can incrementally expand it in place.
 Med en __C1203____C1204__tilldelningssats__C1205__ ges en tidigare __C1206__-deklarerad variabel ett nytt värde:	With an __C1203__ __C1204__assignment statement__C1205__ a previously declared __C1206__-variable is given a new value:
 Med en __C1205____C1206__tilldelningssats__C1207__ ges en tidigare __C1208__-deklarerad variabel ett nytt värde:	With an __C1205__ __C1206__assignment statement__C1207__ a previously declared __C1208__-variable is given a new value:
+Med en __C1239____C1240__tilldelningssats__C1241__ ges en tidigare __C1242__-deklarerad variabel ett nytt värde:	With an __C1239__ __C1240__assignment statement__C1241__ a previously __C1242__-declared variable is given a new value:
 Med en __C1260____C1261__tilldelningssats__C1262__ ges en tidigare __C1263__-deklarerad variabel ett nytt värde:	With an __C1260__ __C1261__assignment statement__C1262__ a previously declared __C1263__-variable is given a new value:
 Med en __C1266____C1267__tilldelningssats__C1268__ ges en tidigare __C1269__-deklarerad variabel ett nytt värde:	Med en __C1266____C1267__tilldelningssats__C1268__ ges en tidigare __C1269__-deklarerad variabel ett nytt värde:
 Med en __C281____C282__klass__C283__ kan man skapa __C284____C285__godtyckligt många__C286__ __C287____C288__instanser av klassen__C289__ med hjälp av nyckelordet __C290__ följt av klassens namn:	Med en __C281____C282__klass__C283__ kan man skapa __C284____C285__godtyckligt många__C286__ __C287____C288__instanser av klassen__C289__ med hjälp av nyckelordet __C290__ följt av klassens namn:
@@ -11418,6 +11475,7 @@ Observera alltså att kopiering med __C335__, __C336__, __C337__, etc. __C338___
 Observera alltså att kopiering med __C343__, __C344__, __C345__, etc. __C346____C347__inte är djup__C348__, d.v.s. det är bara instansreferenserna som kopieras och inte själva instanserna.	Note that copying with __C343__, __C344__, __C345__, etc. __C346__ __C347__is not deep__C348__, i.e., only the instance references are copied and not the instances themselves.
 Observera att __C1211__ här inte påverkas av att x ändrade värde.	Note that __C1211__ here is not affected by the change in value of x.
 Observera att __C1213__ här inte påverkas av att x ändrade värde.	Note that __C1213__ here is not affected by the changed value of x.
+Observera att __C1247__ här inte påverkas av att x ändrade värde.	Note that __C1247__ here is not affected by the change in value of x.
 Observera att __C1268__ här inte påverkas av att x ändrade värde.	Note that __C1268__ here is not affected by the change in value of x.
 Observera att __C1274__ här inte påverkas av att x ändrade värde.	Note that __C1274__ here is not affected by the changed value of x.
 Observera att __C1284__ här inte påverkas av att x ändrade värde.	Note that __C1284__ here is not affected by the changed value of x.
@@ -11518,6 +11576,7 @@ Olika sorteringsalgoritmer har olika tids- __C243__ minneskomplexitet: i bästa 
 Olika sorteringsalgoritmer lämpar sig olika väl för parallellisering på många kärnor.	Different sorting algorithms are suitable for parallelization on many cores to varying degrees.
 Olika sorters __C1454____C1455__loopar__C1456__ för att repetera satser.	Different types of __C1454__ __C1455__ loops __C1456__ for repeating statements.
 Olika sorters __C1457____C1458__loopar__C1459__ för att repetera satser.	Different types of __C1457__ __C1458__ loops __C1459__ for repeating statements.
+Olika sorters __C1501____C1502__loopar__C1503__ för att repetera satser:	Different types of __C1501__ __C1502__ loops __C1503__ for repeating statements:
 Olika sorters __C1522____C1523__loopar__C1524__ för att repetera satser:	Different types of __C1522__ __C1523__ loops __C1524__ for repeating statements:
 Olika sorters __C1528____C1529__loopar__C1530__ för att repetera satser:	Different types of __C1528__ __C1529__ loops __C1530__ for repeating statements:
 Olika sorters __C1529____C1530__loopar__C1531__ för att repetera satser:	Different types of __C1529__ __C1530__ loops __C1531__ for repeating statements:
@@ -11557,6 +11616,7 @@ Om M1 är __C88__ måste även M2 vara det.	If M1 is __C88__, M2 must also be th
 Om __C0__ körs kommer både  __C1__ och __C2__ skrivas ut, man säger att koden __C3__faller igenom__C4__. Utan __C5__-satsen i Java körs koden i efterkommande __C6__ tills ett __C7__ avbryter exekveringen eller __C8__-satsen tar slut.	If __C0__ is executed, both __C1__ and __C2__ will be printed. It is said that the code __C3__falls through__C4__. Without a __C5__ statement in Java, the code in subsequent __C6__ is executed until a __C7__ interrupts the execution or the __C8__ statement ends.
 Om __C433__ är aktuell katalog:	If __C433__ is the current directory:
 Om __C464__ är aktuell katalog:	If __C464__ is the current directory:
+Om __C466__ är aktuell katalog:	If __C466__ is the current directory:
 Om __C468__ är aktuell katalog:	If __C468__ is the current directory:
 Om __C535__ har __C536__ element, hur många jämförelser kommer i värsta fall att ske med __C537__ enligt ovan?	If __C535__ has __C536__ elements, how many comparisons will be made in the worst case with __C537__ as described above?
 Om __C631__ har __C632__ element, hur många jämförelser kommer i värsta fall att ske med __C633__ enligt ovan? Metoden __C634__ använder algoritmen Timsort__C635____C636____C637____C638__. Sök upp antalet jämförelser i värstafallet på Wikipedia.	If __C631__ has __C632__ elements, how many comparisons will occur in the worst case with __C633__ according to above? The method __C634__ uses the Timsort algorithm__C635____C636____C637____C638__. Look up the number of comparisons in the worst case on Wikipedia.
@@ -11760,6 +11820,7 @@ Om du vill förhindra att REPL ger ny rad efter ENTER vid ofullständig rad, så
 Om du vill förhindra att REPL ger ny rad efter ENTER vid ofullständig rad, så skriv ett __C528____C529__semikolon__C530__ och tryck ENTER.	If you want to prevent the REPL from giving a new line after ENTER on an incomplete line, write a __C528__ __C529__ semicolon __C530__ and press ENTER.
 Om du vill förhindra inmixning eller underlätta användning från Java, använd __C169__.	If you want to prevent mixing or facilitate usage from Java, use __C169__.
 Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C0__:\n__C1__\n__C2__\nDu kan efter vissa nyckelord (t.ex. __C3__, __C4__, __C5__) välja bort klammer-parenteser . \n__C6__\nDå är det __C7__ som avgör vilka satser som ingår.	If you want to do several things in sequence inside a repetition, you can write several statements within __C0__:\n__C1__\n__C2__\nYou can omit the parentheses after certain keywords (e.g., __C3__, __C4__, __C5__) . \n__C6__\nThen it is __C7__ that determines which statements are included.
+Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C1553____C1554__klammer-parenteser__C1555__:\n__C1556__\n__C1557__\nDu kan efter vissa nyckelord (t.ex. __C1558__, __C1559__, __C1560__) välja bort klammer-parenteser . \n__C1561__\nDå är det __C1562____C1563__indenteringen__C1564__ som avgör vilka satser som ingår.	Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C1553____C1554__klammer-parenteser__C1555__:\n__C1556__\n__C1557__\nDu kan efter vissa nyckelord (t.ex. __C1558__, __C1559__, __C1560__) välja bort klammer-parenteser . \n__C1561__\nDå är det __C1562____C1563__indenteringen__C1564__ som avgör vilka satser som ingår.
 Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C1574____C1575__klammer-parenteser__C1576__:\n__C1577__\n__C1578__\nDu kan efter vissa nyckelord (t.ex. __C1579__, __C1580__, __C1581__) välja bort klammer-parenteser . \n__C1582__\nDå är det __C1583____C1584__indenteringen__C1585__ som avgör vilka satser som ingår.	Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C1574____C1575__klammer-parenteser__C1576__:\n__C1577__\n__C1578__\nDu kan efter vissa nyckelord (t.ex. __C1579__, __C1580__, __C1581__) välja bort klammer-parenteser . \n__C1582__\nDå är det __C1583____C1584__indenteringen__C1585__ som avgör vilka satser som ingår.
 Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C1580____C1581__klammer-parenteser__C1582__:\n__C1583__\n__C1584__\nDu kan efter vissa nyckelord (t.ex. __C1585__, __C1586__, __C1587__) välja bort klammer-parenteser . \n__C1588__\nDå är det __C1589____C1590__indenteringen__C1591__ som avgör vilka satser som ingår.	Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C1580____C1581__klammer-parenteser__C1582__:\n__C1583__\n__C1584__\nDu kan efter vissa nyckelord (t.ex. __C1585__, __C1586__, __C1587__) välja bort klammer-parenteser . \n__C1588__\nDå är det __C1589____C1590__indenteringen__C1591__ som avgör vilka satser som ingår.
 Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C1581____C1582__klammer-parenteser__C1583__:\n__C1584__\n__C1585__\nDu kan efter vissa nyckelord (t.ex. __C1586__, __C1587__, __C1588__) välja bort klammer-parenteser . \n__C1589__\nDå är det __C1590____C1591__indenteringen__C1592__ som avgör vilka satser som ingår.	Om du vill göra flera saker i sekvens inne i en repetition så kan du skriva flera satser inom __C1581____C1582__klammer-parenteser__C1583__:\n__C1584__\n__C1585__\nDu kan efter vissa nyckelord (t.ex. __C1586__, __C1587__, __C1588__) välja bort klammer-parenteser . \n__C1589__\nDå är det __C1590____C1591__indenteringen__C1592__ som avgör vilka satser som ingår.
@@ -12041,6 +12102,7 @@ Opcode -- specificerar operationen (t.ex. __C530__)	Opcode -- specifies the oper
 Opcode -- specificerar operationen (t.ex. __C572__)	Opcode -- specifies the operation (e.g. __C572__)
 Operand(er) -- data eller adresser för operationen (t.ex. register)	Operands -- data or addresses for the operation (e.g., registers)
 Operativsystem	Operating System
+Operativsystem --- en samling program som gör det möjligt att köra __C159____C160__vanliga__C161__ program	Operating system --- a collection of programs that make it possible to run __C159__ __C160__ordinary__C161__ programs
 Operativsystem --- en samling program som gör det möjligt att köra __C161____C162__vanliga__C163__ program	Operating system --- a collection of programs that make it possible to run __C161__ __C162__ordinary__C163__ programs
 Operativsystem, Unix historia, Linux	Operating system, Unix history, Linux
 Operativsystem, Unix historia, Linux__C118__\n            __C119____C120__Filer och kataloger__C121__\n            __C122____C123__Kommandon__C124__\n            __C125____C126__Filskydd__C127__\n            __C128____C129__Kommandotolk__C130__\n            __C131____C132__Processer	Operating system, Unix history, Linux__C118__\n           __C119____C120__Files and directories__C121__\n           __C122____C123__Commands__C124__\n           __C125____C126__File protection__C127__\n           __C128____C129__Command interpreter__C130__\n           __C131____C132__Processes
@@ -12355,6 +12417,7 @@ Professor Björn Regnell, bjorn.regnell@cs.lth.se, E:2413	Professor Björn Regne
 Professor Martin Odersky	Professor Martin Odersky
 Program --- instruktioner för datorn	Program --- instructions for the computer
 Program och data lagras i __C0__, som har ett namn:	Programs and data are stored in __C0__, which has a name:
+Program och data lagras i __C301____C302__filer__C303__, som har ett namn:	Program och data lagras i __C301____C302__filer__C303__, som har ett namn:
 Program och data lagras i __C303____C304__filer__C305__, som har ett namn:	Program och data lagras i __C303____C304__filer__C305__, som har ett namn:
 Program, kontrollstrukturer, maskinkod	Program, control structures, machine code
 Programdesignen ska följa de specifikationer som är angivna nedan.	The program design should follow the specifications specified below.
@@ -12563,6 +12626,7 @@ På laboration __C1259__ lär du dig bland annat:	On lab __C1259__ you will lear
 På laboration __C1305__ lär du dig bland annat:	In laboratory __C1305__, you will learn among other things:
 På laboration __C1466__ lär du dig bland annat:	In laboratory __C1466__, you will learn among other things:
 På laborationen använder du barnvänliga __C0__ för träna på SARA, med fokus på abstraktion.	In the lab you use user-friendly __C0__ to practice with SARA, focusing on abstraction.
+På laborationen använder du barnvänliga __C1649____C1650__Kojo__C1651__ för träna på SARA, med fokus på abstraktion.	In the lab you use user-friendly __C1649__ __C1650__Kojo__C1651__ to practice with SARA, focusing on abstraction.
 På laborationen använder du barnvänliga __C1670____C1671__Kojo__C1672__ för träna på SARA, med fokus på abstraktion.	In the lab you use user-friendly __C1670__ __C1671__Kojo__C1672__ to practice with SARA, focusing on abstraction.
 På laborationen använder du barnvänliga __C1676____C1677__Kojo__C1678__ för träna på SARA, med fokus på abstraktion.	På laborationen använder du barnvänliga __C1676____C1677__Kojo__C1678__ för träna på SARA, med fokus på abstraktion.
 På laborationen behöver du dessa tre brunaktiga färger och det är smidigt att samla dem i en egen namnrymd via ett singelobjekt som heter __C395__ enligt nedan.	In the lab, you need these three brownish colors and it's convenient to gather them in a own namespace via a singleton object named __C395__ as shown below.
@@ -12764,6 +12828,7 @@ Rekursiva datastrukturer	Recursive data structures
 Rekursiva funktioner	Recursive functions
 Relation till maskinkod	Relationship to Machine Code
 Relativ sökväg -- från aktuell katalog	Relative path -- from current directory
+Relativt filnamn:__C406__\n__C407__\n__C408____C409__\nPå skolans datorer ser de översta delarna av filträdet annorlunda ut; en absolut sökväg för en användare med student-id __C410__ kan se ut ungefär såhär:	Relative filenames: __C406__\n__C407__\n__C408____C409__\nOn the school's computers, the top parts of the file tree look different; an absolute path for a user with student ID __C410__ might look something like this:
 Relativt filnamn:__C408__\n__C409__\n__C410____C411__\nPå skolans datorer ser de översta delarna av filträdet annorlunda ut; en absolut sökväg för en användare med student-id __C412__ kan se ut ungefär såhär:	Relative filenames: __C408__\n__C409__\n__C410____C411__\nOn the school's computers, the top parts of the file tree look different; an absolute path for a user with student ID __C412__ might look something like this:
 Remote	Remote
 Ren text-format gör det lätt att använda verktyg som Git för versionskontroll, vilket är idealiskt för samarbetsprojekt.	Plain text format makes it easy to use tools like Git for version control, which is ideal for collaborative projects.
@@ -12865,6 +12930,7 @@ Rita flera kvadrater i likhet med bild __C220__ på sidan __C221__).	Draw severa
 Rita hur det ser ut i minnet.	Draw how it looks in memory.
 Rita hur minnet ser ut efter varje rad nedan:\n__C1289__1em	Draw how memory looks after each line below: \n__C1289__1em
 Rita hur minnet ser ut efter varje rad nedan:\n__C1292__1em	Draw how the memory looks after each line below:\n__C1292__1em
+Rita hur minnet ser ut efter varje rad nedan:\n__C1327__1em	Draw how memory looks after each line below: \n__C1327__1em
 Rita hur minnet ser ut efter varje rad nedan:\n__C1344__1em	Draw how the memory looks after each line below:\n__C1344__1em
 Rita hur minnet ser ut efter varje rad nedan:\n__C1348__1em	Draw what memory looks like after each line below: \n__C1348__1em
 Rita hur minnet ser ut efter varje rad nedan:\n__C1354__1em	Draw how the memory looks after each line below:\n__C1354__1em
@@ -13261,6 +13327,7 @@ Serverhall 2016: 28 000 kvm, 1 TWh/år, __C48__tusentals datorer, var och en min
 Set	Set
 Set[Char] -> java.util.Set[Char]	Set[Char] -> java.util.Set[Char]
 Shell__C0__: __C1__Engelska för kommandotolk__C2__, __C3__ på svenska	Shell__C0__: __C1__Engelska för kommandotolk__C2__, __C3__ på svenska
+Shell__C514__: __C515__Engelska för kommandotolk__C516__, __C517____C518__skal__C519__ på svenska	Shell__C514__: __C515__Engelska för kommandotolk__C516__, __C517____C518__skal__C519__ på svenska
 Shell__C516__: __C517__Engelska för kommandotolk__C518__, __C519____C520__skal__C521__ på svenska	Shell__C516__: __C517__Engelska för kommandotolk__C518__, __C519____C520__skal__C521__ på svenska
 Siffrorna tolkar man sedan som binära tal, vilket ger:	The numbers are then interpreted as binary values, which gives:
 Siffrors position bestämmer 10-potensvärdet.	The position of digits determines their 10-potential value.
@@ -13814,6 +13881,7 @@ Skriv ut de rader i filen __C152__ som innehåller ordet Linux.	Print the lines 
 Skriv ut de rader i filen __C152__ som innehåller ordet Linux. Kommandot för att leta i en fil heter __C153__. Se manualen med __C154__.	Print the lines in file __C152__ that contain the word Linux. The command to search in a file is __C153__. See the manual with __C154__.
 Skriv ut en förteckning över de filer vars namn innehåller strängen __C128__.	Print a list of the files whose names contain the string __C128__.
 Skriv ut en innehållsförteckning över din hemkatalog.	Print a table of contents over your home directory.
+Skriv ut en innehållsförteckning över katalogen __C715__ (aktuell katalog om ingen katalog ges). __C716__ skriv i ett längre format, __C717__ skriv också ut punktfiler.	Print a table of contents for the directory __C715__ (current directory if no directory is given). __C716__ write in a longer format, __C717__ also print dot files.
 Skriv ut en innehållsförteckning över katalogen __C717__ (aktuell katalog om ingen katalog ges). __C718__ skriv i ett längre format, __C719__ skriv också ut punktfiler.	Print a table of contents over the directory __C717__ (current directory if no directory is given). __C718__ print in a longer format, __C719__ also print out dot files.
 Skriv ut hjälptexten (''man-sidan'') för __C94__-kommandot (ILL 1.8). Bläddra framåt och bakåt i texten.	Print the man-page for the __C94__ command (ILL 1.8). Navigate forward and backward in the text.
 Skriv ut hjälptexten (''man-sidan'') för __C97__-kommandot (ILL 1.8). Bläddra framåt och bakåt i texten.	Print the man-page for the __C97__ command (ILL 1.8). Navigate forward and backward in the text.
@@ -13839,6 +13907,7 @@ Skriva kod	Write code
 Skriva maskinkod för hand!	Write machine code by hand!
 Skriva till fil.	Write to file.
 Skrivbordsappen __C0__ med inbyggd barnvänlig editor (endast Scala 2, gammal syntax etc).	Desktop application __C0__ with a built-in child-friendly editor (only Scala 2, old syntax etc).
+Skrivbordsappen __C1666____C1667__Kojo Desktop__C1668__ med inbyggd barnvänlig editor (endast Scala 2, gammal syntax etc).	The desktop application __C1666__ __C1667__ Kojo Desktop __C1668__ with a built-in child-friendly editor (only Scala 2, old syntax etc).
 Skrivbordsappen __C1687____C1688__Kojo Desktop__C1689__ med inbyggd barnvänlig editor (endast Scala 2, gammal syntax etc).	Skrivbordsappen __C1687____C1688__Kojo Desktop__C1689__ med inbyggd barnvänlig editor (endast Scala 2, gammal syntax etc).
 Skrivbordsappen __C1693____C1694__Kojo Desktop__C1695__ med inbyggd barnvänlig editor (endast Scala 2, gammal syntax etc).	Skrivbordsappen __C1693____C1694__Kojo Desktop__C1695__ med inbyggd barnvänlig editor (endast Scala 2, gammal syntax etc).
 Skrivbordsmiljön bygger vidare på fönsterhanteraren för en fullständig användarupplevelse.	The desktop environment builds upon the window manager for a complete user experience.
@@ -14427,6 +14496,7 @@ Ta med hjälp av __C801__ reda på hur många klasser och paket det finns i Java
 Ta reda på vad just __C0__ behöver träna på!	Find out what __C0__ needs to practice!
 Ta reda på vad just __C339____C340__du__C341__ behöver träna på!	Ta reda på vad just __C339____C340__du__C341__ behöver träna på!
 Ta vara på det och prova dig fram genom att koda egna idéer -- det är kul när det funkar, men minst lika lärorikt är felsökning, buggrättande och alla misslyckade försök som, ibland efter hårt arbete vänds till lyckade lösningar och bestående lärdomar.	Take it and proceed by coding your own ideas — it's fun when it works, but just as instructive are debugging, bug hunting, and all the failed attempts that, sometimes after hard work, turn into successful solutions and lasting lessons.
+Tab__C872__                         __C873__ Filnamnskomplettering (man behöver bara skriva början av ett långt namn).	Tab__C872__                         __C873__ File name completion (you only need to write the beginning of a long name).
 Tab__C874__                         __C875__ Filnamnskomplettering (man behöver bara skriva början av ett långt namn).	Tab__C874__                         __C875__ File name completion (you only need to type the beginning of a long name).
 Tabellen på nästa uppslag visar begrepp som ingår i varje modul.	The table on the next lookup shows concepts that are included in each module.
 Tabellens nycklar utgör en mängd som ges av metoden __C0__;__C1__\nnycklarna är __C2__.	Tabellens nycklar utgör en mängd som ges av metoden __C0__;__C1__\nnycklarna är __C2__.
@@ -14437,6 +14507,7 @@ Tabeller är enkla att skapa:	Tables are easy to create:
 Tack vare kompilatorns typinferens så får __C275__ typen __C276__.	Thanks to the compiler's type inference, __C275__ has the type __C276__.
 Tack vare kompilatorns typinferens så får __C282__ typen __C283__.	Thanks to the compiler's type inference, __C282__ gets the type __C283__.
 Tack vare kompilatorns typinferens så får __C288__ typen __C289__.	Thanks to the compiler's type inference, __C288__ has the type __C289__.
+Tag bort __C751__. Man måste först ta bort alla filerna i katalogen.	Remove __C751__. You must first remove all files in the directory.
 Tag bort __C753__. Man måste först ta bort alla filerna i katalogen.	Remove __C753__. You must first remove all files in the directory.
 Tag bort de angivna filerna.	Delete the specified files.
 Tag bort filen __C161__.	Delete file __C161__.
@@ -14489,11 +14560,13 @@ Teori programmering: nästlade och generiska strukturer	Programming theory: nest
 Teori: Datorer och datoranvändningammering, typsättning	Theory: Computers and computer programming, typesetting
 Termer:	Terms:
 Termerna __C0__ och __C1__ används ofta synonymt, men har olika betydelser:	The terms __C0__ and __C1__ are often used synonymously, but have different meanings:
+Termerna __C490____C491__kommandotolk__C492__ och __C493____C494__terminal__C495__ används ofta synonymt, men har olika betydelser:	Termerna __C490____C491__kommandotolk__C492__ och __C493____C494__terminal__C495__ används ofta synonymt, men har olika betydelser:
 Termerna __C492____C493__kommandotolk__C494__ och __C495____C496__terminal__C497__ används ofta synonymt, men har olika betydelser:	Termerna __C492____C493__kommandotolk__C494__ och __C495____C496__terminal__C497__ används ofta synonymt, men har olika betydelser:
 Terminal i Apple macOS/OS X	Terminal in Apple macOS/OS X
 Terminal i Linux	Terminal in Linux
 Terminal__C473__: __C474__Program som låter användaren skriva kommandon till kommandotolken	Terminal__C473__: __C474__program that allows the user to enter commands for the command line
 Terminal__C506__: __C507__Program som låter användaren skriva kommandon till kommandotolken	Terminal__C506__: __C507__program that allows the user to enter commands for the command line
+Terminal__C508__: __C509__Program som låter användaren skriva kommandon till kommandotolken	Terminal__C508__: __C509__A program that lets the user type commands to the command interpreter
 Terminal__C510__: __C511__Program som låter användaren skriva kommandon till kommandotolken	Terminal__C510__: __C511__Program that allows the user to enter commands for the command line
 Terminalen framstår som upptagen tills programmet avslutas.	The terminal appears to be occupied until the program terminates.
 Terminalfönster	Terminal window
@@ -15263,6 +15336,7 @@ Utgå från koden i uppgift __C76____C77__ och byt ut case-grenen för __C78__-m
 Utgå från koden i uppgift __C80____C81__ och byt ut case-grenen för __C82__-matchning till nedan variant med en gard med nyckelordet __C83__ (notera att det inte behövs parenteser runt villkoret):\n__C84__\nKompilera om och kör programmet upprepade gånger med olika indata tills alla grenar i __C85__-uttrycket har exekverats.	Starting from the code in task __C80__ __C81__, replace the case branch for __C82__ matching with the following variant with a guard using the keyword __C83__ (note that parentheses are not needed around the condition):\n__C84__\nCompile and run the program repeatedly with different input until all branches in the __C85__ expression have been executed.
 Uthämtning av bokpaket	Loading book packages
 Utläses: __C0__ nytt slumptal är mindre än __C1__ skriv ''gurka''	Output: __C0__ new random number is less than __C1__ write 'cucumber'
+Utläses: __C1511____C1512__så länge__C1513__ nytt slumptal är mindre än __C1514__ skriv ''gurka''	Output: __C1511__ __C1512__ as long as __C1513__ the new random number is less than __C1514__ write 'cucumber'
 Utläses: __C1532____C1533__så länge__C1534__ nytt slumptal är mindre än __C1535__ skriv ''gurka''	Output: __C1532__ __C1533__ as long as __C1534__ the new random number is less than __C1535__ write 'cucumber'
 Utläses: __C1538____C1539__så länge__C1540__ nytt slumptal är mindre än __C1541__ skriv ''gurka''	Utläses: __C1538____C1539__så länge__C1540__ nytt slumptal är mindre än __C1541__ skriv ''gurka''
 Utläses: __C1539____C1540__så länge__C1541__ nytt slumptal är mindre än __C1542__ skriv ''gurka''	Reads as: __C1539____C1540__while__C1541__ new random number is less than __C1542__ print ''cucumber''
@@ -15851,6 +15925,7 @@ Vanlig merge -- skapar en __C594____C595__merge commit	Normal merge -- creates a
 Vanlig merge -- skapar en __C596____C597__merge commit	Vanlig merge -- skapar en __C596____C597__merge commit
 Vanliga dokumentklasser: __C303__, __C304__, __C305__, __C306__, __C307__.	Common document classes: __C303__, __C304__, __C305__, __C306__, __C307__.
 Vanliga dokumentklasser: __C338__, __C339__, __C340__, __C341__, __C342__.	Common document classes: __C338__, __C339__, __C340__, __C341__, __C342__.
+Vanliga program__C1007____C1008__Kommandotolken söker efter programfiler i __C1009__.	Common program__C1007____C1008__commands are searched for in __C1009__.
 Vanliga program__C1009____C1010__Kommandotolken söker efter programfiler i __C1011__.	Common program__C1009____C1010__commands are searched for in __C1011__.
 Vanliga sekvensproblem som funktionshuvuden	Common sequence problems as function headers
 Vanliga sekvensproblem som funktionshuvuden__C667__\nIndata och utdata för några vanliga sekvensproblem:\n__C668__\nÖvning: Hur implementera dessa med __C669__-uttryck eller färdiga samlingsmetoder?__C670__\n__C671____C672__Tips:__C673__ För __C674____C675____C676__ se __C677__, __C678__, __C679__ i	Common sequence problems as function headers__C667__\nInput and output for some common sequence problems:\n__C668__\nExercise: How implement these with __C669__-expressions or ready-made collection methods?__C670__\n__C671____C672__Hint:__C673__ For __C674____C675____C676__ see __C677__, __C678__, __C679__ in
@@ -16286,6 +16361,7 @@ Vid byte av plats: Gtrue100.__C134__\n__C135__ testar om kompanjonsobjektet __C1
 Vid deklaration ska variabeln __C0__ med ett startvärde.	When declaring a variable, __C0__ should have an initial value.
 Vid deklaration ska variabeln __C1190____C1191__initialiseras__C1192__ med ett startvärde.	Vid deklaration ska variabeln __C1190____C1191__initialiseras__C1192__ med ett startvärde.
 Vid deklaration ska variabeln __C1192____C1193__initialiseras__C1194__ med ett startvärde.	Vid deklaration ska variabeln __C1192____C1193__initialiseras__C1194__ med ett startvärde.
+Vid deklaration ska variabeln __C1226____C1227__initialiseras__C1228__ med ett startvärde.	Vid deklaration ska variabeln __C1226____C1227__initialiseras__C1228__ med ett startvärde.
 Vid deklaration ska variabeln __C1247____C1248__initialiseras__C1249__ med ett startvärde.	Vid deklaration ska variabeln __C1247____C1248__initialiseras__C1249__ med ett startvärde.
 Vid deklaration ska variabeln __C1253____C1254__initialiseras__C1255__ med ett startvärde.	Vid deklaration ska variabeln __C1253____C1254__initialiseras__C1255__ med ett startvärde.
 Vid deklaration ska variabeln __C1302____C1303__initialiseras__C1304__ med ett startvärde.	At declaration, the variable __C1302____C1303__should be initialized__C1304__ with a starting value.
@@ -16581,9 +16657,11 @@ W14: Munta __C1157__ På schematider endast ons-tors.	W14: Mount __C1157__ Only 
 W14: Munta __C1252__ På schematider endast ons-tors.	W14: Mount __C1252__ On schema times only Mon-Thu.
 WSL (Windows Subsystem for Linux):	Windows Subsystem for Linux:
 WSL__C644__: Fullständig Linux-utveckling. (Rekommenderas)	WSL__C644__: Complete Linux development. (Recommended)
+WSL__C646__: Fullständig Linux-utveckling. (Rekommenderas)	WSL__C646__: Full Linux development. (Recommended)
 WSL__C648__: Fullständig Linux-utveckling. (Rekommenderas)	WSL__C648__: Full Linux development. (Recommended)
 WSL__C96__. I både Windows 10 och 11 kan du även köra Ubuntu-terminalen med hjälp av Windows Linux Subsystem (WSL), vilket rekommenderas, speciellt om du inte har möjlighet att göra s.k. dual boot__C97____C98__Läs mer om dual boot här och be gärna någon om hjälp som gjort det förr:__C99__ __C100____C101__.	WSL__C96__. In both Windows 10 and 11, you can also run the Ubuntu terminal using the Windows Linux Subsystem (WSL), which is recommended, especially if you do not have the option to do a so-called dual boot__C97____C98__. Read more about dual boot here and feel free to ask someone who has done it before for help:__C99__ __C100____C101__.
 Watch mode vid körning är användbart om programmet ger resultat utan att vänta på input, men inte så smidigt om varje körning kräver att användaren skriver indata eller om fönster måste stängas.	Watch mode during execution is useful if the program produces results without waiting for input, but not as convenient if each run requires user input or if windows must be closed.
+Webbappen __C1670____C1671____C1672____C1673__ direkt i webbläsare; rekommenderas ej -- endast Scala 2, mer begränsad.	The web application __C1670__ __C1671__ __C1672__ __C1673__ directly in the browser; not recommended -- only Scala 2, more limited.
 Webbappen __C1691____C1692____C1693____C1694__ direkt i webbläsare; rekommenderas ej -- endast Scala 2, mer begränsad.	The web application __C1691__ __C1692__ __C1693__ __C1694__ directly in the browser; not recommended -- only Scala 2, more limited.
 Webbappen __C1697____C1698____C1699____C1700__ direkt i webbläsare; rekommenderas ej -- endast Scala 2, mer begränsad.	The web application __C1697__ __C1698__ __C1699__ __C1700__ directly in the browser; not recommended -- only Scala 2, more limited.
 Webbshoppen __C0__ säljer flyttbara kvadrater.	The webshop __C0__ sells movable squares.
@@ -16870,6 +16948,7 @@ background canvas__C62____C63__bg=black	background canvas__C62____C63__bg=black
 baka en kaka	bake a cake
 basfallet	base case
 bash läser __C934__ (från hemkatalogen) när ett nytt terminalfönster öppnas.	bash reads __C934__ (from the home directory) when a new terminal window opens.
+bash läser __C958__ (från hemkatalogen) när ett nytt terminalfönster öppnas.	bash reads __C958__ (from the home directory) when a new terminal window opens.
 bash läser __C960__ (från hemkatalogen) när ett nytt terminalfönster öppnas.	bash reads __C960__ (from the home directory) when a new terminal window opens.
 bash-finesser 1	bash-finesser 1
 bash-finesser 1__C829__ __C830__\n    Man kan editera den aktuella kommandoraden:	bash-finesser 1__C829__ __C830__\n    One can edit the current command:
@@ -17004,6 +17083,7 @@ copy	copy
 curl -o introprog.jar -sLO  https://fileadmin.cs.lth.se/introprog.jar\nscala run . --jar introprog.jar\n__C327__\nDå hamnar __C328__ automatiskt på classpath.	curl -o introprog.jar -sLO https://fileadmin.cs.lth.se/introprog.jar\nscala run . --jar introprog.jar\n__C327__\nThen __C328__ is automatically added to the classpath.
 curl -o introprog.jar -sLO  https://fileadmin.cs.lth.se/introprog.jar\nscala run . --jar introprog.jar\n__C350__\nDå hamnar __C351__ automatiskt på classpath.	curl -o introprog.jar -sLO https://fileadmin.cs.lth.se/introprog.jar\nscala run . --jar introprog.jar\n__C350__\nThen __C351__ is automatically added to the classpath.
 data	data
+data (foton, document, programmeringsuppgifter, __C297__)	data (photo, document, programming information, __C297__)
 data (foton, document, programmeringsuppgifter, __C299__)	data (photons, documents, programming assignments, __C299__)
 data-strukturer	datastructures
 datamodell	data model
@@ -17137,6 +17217,7 @@ default-argument	Default argument
 defaultargument	default argument
 defaultargument i klassparametrar, eller	default argument in class parameters, or
 definiera och anropa funktion	define and call a function
+definierar var program letas upp (__C1020__ för anpassning).	defines where the program is looked up (__C1020__ for customization).
 definierar var program letas upp (__C1022__ för anpassning).	defines how the program is structured (__C1022__ for customization).
 definierar var program letas upp (__C996__ för anpassning).	defines how the program is structured (__C996__ for customization).
 deklarationer	declarations
@@ -17934,6 +18015,7 @@ labbinstruktionen	Lab instructions
 laborationen	the lab
 ladda ner,	download,
 lagom	just right
+lagring av data (filer, __C176__)	data storage (files, __C176__)
 lagring av data (filer, __C178__)	data storage (files, __C178__)
 lambda	lambda
 lambda-uttryck	lambda expression
@@ -18080,6 +18162,8 @@ moon.jpg	moon.jpg
 motsatsen	opposite
 motsvarande	equivalent
 motsvarande i Scala	equivalent in Scala
+motsvarar __C0__ godtyckligt tecken __C1__\n            __C2__ __C3__ motsvarar 0--flera godtyckliga tecken	motsvarar __C0__ godtyckligt tecken __C1__\n            __C2__ __C3__ motsvarar 0--flera godtyckliga tecken
+motsvarar __C903____C904__ett__C905__ godtyckligt tecken __C906__\n            __C907__ __C908__ motsvarar 0--flera godtyckliga tecken	motsvarar __C903____C904__ett__C905__ godtyckligt tecken __C906__\n            __C907__ __C908__ motsvarar 0--flera godtyckliga tecken
 motsvarar __C905____C906__ett__C907__ godtyckligt tecken __C908__\n            __C909__ __C910__ motsvarar 0--flera godtyckliga tecken	matches __C905____C906__any__C907__single character __C908__\n            __C909__ __C910__ matches 0--multiple arbitrary characters
 motsvaras av __C400____C401____C402____C403__ i JVM.	answered by __C400__ __C401__ __C402__ __C403__ in the JVM.
 motsvaras av __C432____C433____C434____C435__ i JVM.	motsvaras av __C432____C433____C434____C435__ i JVM.
@@ -18431,6 +18515,7 @@ produkt__C0__-typer och __C1__-typer:	product__C0__-types and __C1__-types:
 produkt__C277__-typer och __C278____C279__summa__C280__-typer:	produkt__C277__-typer och __C278____C279__summa__C280__-typer:
 produkt__C309__-typer och __C310____C311__summa__C312__-typer:	product__C309__ types and __C310____C311__ sum__C312__ types:
 produkt__C319__-typer och __C320____C321__summa__C322__-typer:	product__C319__ types and __C320____C321__summa__C322__ types:
+program (Word, Excel, Java-/Scalakompilator, spelprogram, __C293__)	program (Word, Excel, Java/Scala compiler, game program, __C293__)
 program (Word, Excel, Java-/Scalakompilator, spelprogram, __C295__)	program (word, excel, Java-/Scala compiler, game program, __C295__)
 program-argument	program argument
 program__C140__             = instruktioner till en dator (kod, mjukvara)	program__C140__             = instructions to a computer (code, software)
@@ -18489,6 +18574,7 @@ påbörja projekt	begin project
 quickref	quick reference
 rad 1 __C1311__ rad 2 __C1312__ rad 3 __C1313__ rad 4  __C1314__ rad 5 __C1315__ rad 6__C1316__\nu__C1317__ __C1318____C1319__42 __C1320__ __C1321__  __C1322____C1323____C1324__   __C1325__   __C1326____C1327____C1328__   __C1329__ __C1330____C1331____C1332__ __C1333__ __C1334____C1335____C1336__ __C1337__ __C1338____C1339____C1340__ __C1341__\nx__C1342__ __C1343____C1344__?	line 1 __C1311__ line 2 __C1312__ line 3 __C1313__ line 4  __C1314__ line 5 __C1315__ line 6__C1316__\nu__C1317__ __C1318____C1319__42 __C1320__ __C1321__  __C1322____C1323____C1324__   __C1325__   __C1326____C1327____C1328__   __C1329__ __C1330____C1331____C1332__ __C1333__ __C1334____C1335____C1336__ __C1337__ __C1338____C1339____C1340__ __C1341__\nx__C1342__ __C1343____C1344__?
 rad 1 __C1314__ rad 2 __C1315__ rad 3 __C1316__ rad 4  __C1317__ rad 5 __C1318__ rad 6__C1319__\nu__C1320__ __C1321____C1322__42 __C1323__ __C1324__  __C1325____C1326____C1327__   __C1328__   __C1329____C1330____C1331__   __C1332__ __C1333____C1334____C1335__ __C1336__ __C1337____C1338____C1339__ __C1340__ __C1341____C1342____C1343__ __C1344__\nx__C1345__ __C1346____C1347__?	line 1 __C1314__ line 2 __C1315__ line 3 __C1316__ line 4  __C1317__ line 5 __C1318__ line 6__C1319__\nu__C1320__ __C1321____C1322__42 __C1323__ __C1324__  __C1325____C1326____C1327__   __C1328__   __C1329____C1330____C1331__   __C1332__ __C1333____C1334____C1335__ __C1336__ __C1337____C1338____C1339__ __C1340__ __C1341____C1342____C1343__ __C1344__\nx__C1345__ __C1346____C1347__?
+rad 1 __C1349__ rad 2 __C1350__ rad 3 __C1351__ rad 4  __C1352__ rad 5 __C1353__ rad 6__C1354__\nu__C1355__ __C1356____C1357__42 __C1358__ __C1359__  __C1360____C1361____C1362__   __C1363__   __C1364____C1365____C1366__   __C1367__ __C1368____C1369____C1370__ __C1371__ __C1372____C1373____C1374__ __C1375__ __C1376____C1377____C1378__ __C1379__\nx__C1380__ __C1381____C1382__?	line 1 __C1349__ line 2 __C1350__ line 3 __C1351__ line 4  __C1352__ line 5 __C1353__ line 6__C1354__\nu__C1355__ __C1356____C1357__42 __C1358__ __C1359__  __C1360____C1361____C1362__   __C1363__   __C1364____C1365____C1366__   __C1367__ __C1368____C1369____C1370__ __C1371__ __C1372____C1373____C1374__ __C1375__ __C1376____C1377____C1378__ __C1379__\nx__C1380__ __C1381____C1382__?
 rad 1 __C1370__ rad 2 __C1371__ rad 3 __C1372__ rad 4  __C1373__ rad 5 __C1374__ rad 6__C1375__\nu__C1376__ __C1377____C1378__42 __C1379__ __C1380__  __C1381____C1382____C1383__   __C1384__   __C1385____C1386____C1387__   __C1388__ __C1389____C1390____C1391__ __C1392__ __C1393____C1394____C1395__ __C1396__ __C1397____C1398____C1399__ __C1400__\nx__C1401__ __C1402____C1403__?	line 1 __C1370__ line 2 __C1371__ line 3 __C1372__ line 4  __C1373__ line 5 __C1374__ line 6__C1375__\nu__C1376__ __C1377____C1378__42 __C1379__ __C1380__  __C1381____C1382____C1383__   __C1384__   __C1385____C1386____C1387__   __C1388__ __C1389____C1390____C1391__ __C1392__ __C1393____C1394____C1395__ __C1396__ __C1397____C1398____C1399__ __C1400__\nx__C1401__ __C1402____C1403__?
 rad 1 __C1376__ rad 2 __C1377__ rad 3 __C1378__ rad 4  __C1379__ rad 5 __C1380__ rad 6__C1381__\nu__C1382__ __C1383____C1384__42 __C1385__ __C1386__  __C1387____C1388____C1389__   __C1390__   __C1391____C1392____C1393__   __C1394__ __C1395____C1396____C1397__ __C1398__ __C1399____C1400____C1401__ __C1402__ __C1403____C1404____C1405__ __C1406__\nx__C1407__ __C1408____C1409__?	line 1 __C1376__ line 2 __C1377__ line 3 __C1378__ line 4  __C1379__ line 5 __C1380__ line 6__C1381__\nu__C1382__ __C1383____C1384__42 __C1385__ __C1386__  __C1387____C1388____C1389__   __C1390__   __C1391____C1392____C1393__   __C1394__ __C1395____C1396____C1397__ __C1398__ __C1399____C1400____C1401__ __C1402__ __C1403____C1404____C1405__ __C1406__\nx__C1407__ __C1408____C1409__?
 rad 1 __C1377__ rad 2 __C1378__ rad 3 __C1379__ rad 4  __C1380__ rad 5 __C1381__ rad 6__C1382__\nu__C1383__ __C1384____C1385__42 __C1386__ __C1387__  __C1388____C1389____C1390__   __C1391__   __C1392____C1393____C1394__   __C1395__ __C1396____C1397____C1398__ __C1399__ __C1400____C1401____C1402__ __C1403__ __C1404____C1405____C1406__ __C1407__\nx__C1408__ __C1409____C1410__?	line 1 __C1377__ line 2 __C1378__ line 3 __C1379__ line 4  __C1380__ line 5 __C1381__ line 6__C1382__\nu__C1383__ __C1384____C1385__42 __C1386__ __C1387__  __C1388____C1389____C1390__   __C1391__   __C1392____C1393____C1394__   __C1395__ __C1396____C1397____C1398__ __C1399__ __C1400____C1401____C1402__ __C1403__ __C1404____C1405____C1406__ __C1407__\nx__C1408__ __C1409____C1410__?
@@ -19533,13 +19619,16 @@ x86 -- Används i de flesta persondatorer	x86 -- Used in most personal computers
 xs(i) <	xs(i) <
 y__C1367__ __C1368____C1369__?	What is y__C1367__ __C1368____C1369__ ?
 y__C1370__ __C1371____C1372__?	y__C1370__ __C1371____C1372__?
+y__C1405__ __C1406____C1407__?	What is y__C1405__ __C1406____C1407__?
 y__C1426__ __C1427____C1428__?	What is y__C1426__ __C1427____C1428__?
 y__C1432__ __C1433____C1434__?	What is y__C1432__ __C1433____C1434__?
 y__C1433__ __C1434____C1435__?	y__C1433__ __C1434____C1435__?
 yield	yield
+yttre enheter (tangentbord, mus, skärm, nätverk, __C172__)	external devices (keyboard, mouse, screen, network, __C172__)
 yttre enheter (tangentbord, mus, skärm, nätverk, __C174__)	external devices (keyboard, mouse, screen, network, __C174__)
 z__C1392__ __C1393____C1394__?	What is __C1392__ __C1393__ __C1394__ ?
 z__C1395__ __C1396____C1397__?	z__C1395__ __C1396____C1397__?
+z__C1430__ __C1431____C1432__?	What is __C1430__ __C1431__ __C1432__?
 z__C1451__ __C1452____C1453__?	What is __C1451__ __C1452__ __C1453__?
 z__C1457__ __C1458____C1459__?	What is __C1457__ __C1458__ __C1459__ ?
 z__C1458__ __C1459____C1460__?	z__C1458__ __C1459____C1460__?
@@ -19558,6 +19647,7 @@ z__C1458__ __C1459____C1460__?	z__C1458__ __C1459____C1460__?
 ~Vilket värde har dessa uttryck?	What value do these expressions have?
 ~Vilket värde och vilken typ hör till vilket uttryck?  Är du osäker på svaret, testa i REPL.	What value and type does each expression have? If you are unsure of the answer, try it in the REPL.
 Ägare identifieras via användarnamn och grupp__C762__\n            __C763__(t.ex., __C764__ i __C765__)	Owners are identified via username and group__C762__\n            __C763__(e.g., __C764__ in __C765__)
+Ägare identifieras via användarnamn och grupp__C776__\n            __C777__(t.ex., __C778__ i __C779__)	Owners are identified via username and group__C776__\n            __C777__(e.g., __C778__ in __C779__)
 Ägare identifieras via användarnamn och grupp__C778__\n            __C779__(t.ex., __C780__ i __C781__)	Owners are identified via username and group__C778__\n            __C779__(e.g., __C780__ in __C781__)
 Äger en annan spelare rutan blir den nuvarande spelaren tvungen att betala hyra.	If another player owns the square, the current player is now forced to pay rent.
 Äkta funktioner	Pure functions
@@ -19569,6 +19659,7 @@ z__C1458__ __C1459____C1460__?	z__C1458__ __C1459____C1460__?
 Ändra __C32____C33__på plats__C34__  i __C35____C36__förändringsbar__C37__ sekvens\n__C38__\n__C39__\n__C40__\nVälja mellan att skapa ny sekvens eller ändra på plats?	Ändra __C32____C33__på plats__C34__  i __C35____C36__förändringsbar__C37__ sekvens\n__C38__\n__C39__\n__C40__\nVälja mellan att skapa ny sekvens eller ändra på plats?
 Ändra __C552__ och/eller __C553__ så att typerna passar.	Change __C552__ and/or __C553__ so that the types match.
 Ändra __C584__ och/eller __C585__ så att typerna passar.	Change __C584__ and/or __C585__ so that the types match.
+Ändra aktuell katalog till __C738__. Utan argument blir det hemkatalogen (samma som __C739__ __C740__). __C741__\n        __C742__ __C743__ Skapa underkatalogen __C744__ i den aktuella katalogen.	Change the current directory to __C738__. Without an argument, it becomes the home directory (same as __C739__ __C740__). __C741__\n        __C742__ __C743__ Create the subdirectory __C744__ in the current directory.
 Ändra aktuell katalog till __C740__. Utan argument blir det hemkatalogen (samma som __C741__ __C742__). __C743__\n        __C744__ __C745__ Skapa underkatalogen __C746__ i den aktuella katalogen.	Change the current directory to __C740__. Without arguments, it will be the home directory (same as __C741__ __C742__). __C743__\n        __C744__ __C745__ Create the subdirectory __C746__ in the current directory.
 Ändra aktuell katalog till __C740__. Utan argument blir det hemkatalogen (samma som __C741__ __C742__). __C743__\n        __C744__ __C745__ Skapa underkatalogen __C746__ i den aktuella katalogen.                                                 __C747__\n        __C748__       __C749__ Skriv ut namnet på aktuell katalog.                                                                       __C750__\n        __C751__ __C752__ Tag bort __C753__. Man måste först ta bort alla filerna i katalogen.	Change the current directory to __C740__. Without arguments, it will be the home directory (same as __C741__ __C742__). __C743__\n        __C744__ __C745__ Create a subdirectory named __C746__ in the current directory.                                                 __C747__\n        __C748__       __C749__ Print the name of the current directory.                                                                       __C750__\n        __C751__ __C752__ Remove __C753__. You must first remove all files in the directory.
 Ändra ev. versionsnummer till senaste versionen. Notera de dubbla procent-tecknen före biblioteksnamnet, som används för Scala-bibliotek som kors-publicerats för olika versioner av Scala, t.ex. 3, 2.12 och 2.13, vilket gör att rätt biblioteksversion för rätt kompilatorversion laddas ned.	Change the version number to the latest version. Note the double percent signs before the library name, which are used for Scala libraries cross-published for different versions of Scala, e.g., 3, 2.12, and 2.13, which ensures that the correct library version for the right compiler version is downloaded.
@@ -19724,6 +19815,7 @@ z__C1458__ __C1459____C1460__?	z__C1458__ __C1459____C1460__?
 Öppen källkod på Maven Central	Open source on Maven Central
 Öppen källkod__C76__. Skapa kraftfulla API:er. (API=application programming interface, byggstenar för att bygga appar)	Open-source__C76__. Create powerful APIs. (API=application programming interface, building blocks for building apps)
 Öppna Terminal och skriv __C572__ för att temporärt byta till Bash.	Open Terminal and type __C572__ to temporarily switch to Bash.
+Öppna Terminal och skriv __C574__ för att temporärt byta till Bash.	Open Terminal and type __C574__ to temporarily switch to Bash.
 Öppna Terminal och skriv __C576__ för att temporärt byta till Bash.	Open Terminal and type __C576__ to temporarily switch to Bash.
 Öppna VirtualBox och välj __C88____C89__File__C90____C91____C92__Import appliance...__C93__ och välj filen __C94__ och klicka __C95____C96__Next__C97__ och sedan __C98____C99__Import__C100__. Själva importen kan ta lång tid, kanske flera tiotals minuter beroende på hur snabbt din dator läser från disk.	Open VirtualBox and select __C88____C89__File__C90____C91____C92__Import appliance...__C93__ and choose the file __C94__ and click __C95____C96__Next__C97__ and then __C98____C99__Import__C100__. The actual import may take a long time, possibly several tens of minutes depending on how fast your computer reads from disk.
 Öppna __C112__ i en webbläsare.	Open __C112__ in a web browser.
@@ -19790,6 +19882,7 @@ z__C1458__ __C1459____C1460__?	z__C1458__ __C1459____C1460__?
 Övning __C1246__ innehåller bland annat:	Exercise __C1246__ includes among other things:
 Övning __C1292__ innehåller bland annat:	Exercise __C1292__ includes among other things:
 Övning __C1453__ innehåller bland annat:	Exercise __C1453__ includes among other things:
+Övning __C1638__ och labb	Exercise __C1638__ and lab
 Övning __C1659__ och labb	Exercise __C1659__ and lab
 Övning __C1665__ och labb	Exercise __C1665__ and lab
 Övning __C18__:	Exercise __C18__:
