@@ -45,7 +45,7 @@ trait Plan:
     Module("Funktioner och abstraktion",
       id = "functions", exercise = "functions", labs = Seq("irritext"), contents = """
       | abstraktion, funktion,
-      | parameter, argument, returtyp, default-argument,
+      | parameter, argument, returtyp, defaultargument,
       | namngivna argument, parameterlista, funktionshuvud, funktionskropp,
       | applicera funktion på alla element i en samling,
       | uppdelad parameterlista, skapa egen kontrollstruktur,
@@ -131,12 +131,12 @@ trait Plan:
 
     Module("Arv och komposition", 
       id = "inheritance", exercise = "inheritance", labs = Seq("snake0"), contents = """
-      | arv, komposition, polymorfism, trait, extends, asInstanceOf, with, inmixning
+      | arv, komposition, polymorfism, trait, extends, asInstanceOf, with, inmixning,
       | supertyp, subtyp, bastyp, override,
       | Scalas typhierarki, Any, AnyRef, Object, AnyVal, Null, Nothing,
       | topptyp, bottentyp, referenstyper, värdetyper,
       | accessregler vid arv, protected, final,
-      | trait, abstrakt klass, 
+      | abstrakt klass, 
       """.stripTrim),
 
     Module("Varians och kontextparametrar",

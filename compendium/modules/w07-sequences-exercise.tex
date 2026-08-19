@@ -772,6 +772,14 @@ def registerCoinFlips(xs: Seq[Boolean]): (Int, Int) =
 \end{Code}
 
 \SubtaskSolved
+\begin{Code}
+def flips(n: Int): Vector[Boolean] = Vector.fill(n)(math.random() < 0.5)
+\end{Code}
+\begin{REPL}
+scala> registerCoinFlips(flips(1000))
+val res0: (Int, Int) = (499,501)
+\end{REPL}
+Antalet krona och klave blir ungefär lika (cirka 500 vardera); det exakta utfallet varierar mellan körningar eftersom \code{flips} singlar slumpmässigt.
 
 \QUESTEND
 
@@ -1123,7 +1131,20 @@ def insertDropLast(xs: Array[Int], x: Int, pos: Int): Unit =
   \item \code{xs.maxBy(f)} kör först funktionen \code{f} på alla element i \code{xs} och letar sedan upp det största värdet; motsvarande \code{minBy(f)} ger minimum av \code{f(e)} över alla element \code{e} i \code{xs}
 \end{itemize}
 
-\SubtaskSolved --
+\SubtaskSolved
+\begin{REPL}
+scala> Vector(1, 2, 3, 2, 1).lastIndexOf(2)
+val res0: Int = 3
+
+scala> Vector(1, 2, 3, 4, 5).indexOfSlice(Vector(3, 4))
+val res1: Int = 2
+
+scala> Vector(2, 4, 6, 7, 8).segmentLength(_ % 2 == 0, 0)
+val res2: Int = 3
+
+scala> Vector("a", "abc", "ab").maxBy(_.length)
+val res3: String = abc
+\end{REPL}
 
 \QUESTEND
 
@@ -1157,7 +1178,30 @@ scala> val rätt = Vector("ö","å","ä","z").sorted(svOrd)
 \SOLUTION
 
 
-\TaskSolved \what \TODO
+\TaskSolved \what
+
+\SubtaskSolved
+\begin{REPL}
+val fel: Vector[String] = Vector(z, ä, å, ö)
+val rätt: Vector[String] = Vector(z, å, ä, ö)
+\end{REPL}
+Den vanliga \code{.sorted} jämför på teckenkod och ger fel svensk ordning, medan en \code{Collator} för \code{Locale} \code{"sv"} ger rätt ordning där \code{å}, \code{ä}, \code{ö} kommer sist (efter \code{z}).
+
+\SubtaskSolved
+\begin{Code}
+@main def sorted(flagga: String, fil: String): Unit =
+  val locale =
+    if flagga == "-sv" then java.util.Locale.of("sv")
+    else java.util.Locale.getDefault
+  val coll = java.text.Collator.getInstance(locale)
+  val ordning = Ordering.fromLessThan[String]((a, b) => coll.compare(a, b) < 0)
+  val rader = scala.io.Source.fromFile(fil).getLines().toVector
+  rader.sorted(ordning).foreach(println)
+\end{Code}
+Programmet körs med \code{scala sorted -sv textfil.txt} och skriver ut filens rader i korrekt svensk sorteringsordning.
+
+\SubtaskSolved
+Se länken ovan för fler detaljer och alternativ för lokalanpassad sortering.
 
 
 
@@ -1607,6 +1651,7 @@ Läs denna grundliga empirisk genomgång av prestanda i Scalas samlingsbibliotek
 
 \SOLUTION
 
-\TaskSolved --
+\TaskSolved \what
+\emph{Ledtråd.} Sammanställ en tabell över (amorterad) tidskomplexitet för \code{Vector}, \code{List}, \code{Array}, \code{ArrayBuffer}, \code{ListBuffer}, \code{Set} och \code{Map} för operationer som indexering, uppdatering, tillägg först/sist, infogning och medlemskapstest. Se Scalas dokumentation \emph{Collections --- Performance Characteristics}; t.ex. har \code{List} O(1) prepend men O(n) indexering, medan \code{Vector} har nästan O(1) för både åtkomst och uppdatering.
 
 \QUESTEND

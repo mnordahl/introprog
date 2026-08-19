@@ -30,6 +30,25 @@ hello := println("""
 
     type 'hello' to see this message
 
+    --- English mirror (autotranslate sub-project) ---
+
+      NOTE: depends on ollama to be run locally or
+            using codeberg.org/bjornregnell/modly on LAN 
+            if cache is dropped with --clean
+
+    type 'autotranslate' to (re)build the English mirror compendium-en/ and slides-en/
+      (copies .tex as X-en.tex, rewrites \input + assets; content NOT translated by this task)
+
+    for translation run e.g. 'autotranslateProject/run --only w01' (also --all),
+      '... --clean' (drop cache), '--selftest', '--dryrun', '--latextest'
+
+    translation backend + model is set in autotranslate/Translate.scala (SelectedModel);
+      uses the modly GPU server if reachable, else local Ollama, else keeps Swedish
+
+    type 'pdfCompendiumEn' to build the English compendium-en/compendium-en.pdf
+
+    type 'pdfSlidesEn w01' to build an English lecture, e.g. slides-en/lect-w01-en.pdf
+
   =====================================================================
 
 """)
@@ -46,6 +65,7 @@ lazy val commonSettings = Seq(
 )
 
 lazy val plan = (project in file("plan")).settings(commonSettings: _*).
+  dependsOn(glossary). // plan reads glossary.explain to generate translations for muntabot
   settings(
     name := "plan",
     libraryDependencies += "com.lihaoyi" %% "os-lib" % "0.10.2",
@@ -66,14 +86,23 @@ lazy val glossary = (project in file("glossary")).settings(commonSettings: _*).
     name := "glossary",
   )
 
+lazy val autotranslateProject = (project in file("autotranslate")).settings(commonSettings: _*).
+  dependsOn(glossary). // typed access to glossary.explain.allConcepts (authoritative sv<->en)
+  settings(
+    name := "autotranslate",
+    libraryDependencies ++= Seq(
+      "com.lihaoyi" %% "os-lib"   % "0.11.8",
+      "com.lihaoyi" %% "requests" % "0.9.3",
+      "com.lihaoyi" %% "ujson"    % "4.4.3",
+    ),
+  )
 
-lazy val build = taskKey[Unit]("complete build including plan/run before pdf")
-build := Def.sequential(
-  gen,
-  genquiz,
-  gengloss,
-  pdf
-).value
+
+// `build` is a COMMAND alias (not a task): each step runs as its own command,
+// so the final `gen` re-runs AFTER `pdf`. (As a task, `gen` is one node in the
+// graph and sbt evaluates it once — the second `gen` would be skipped.) This
+// makes headings-GENERATED.scala reflect the freshly built compendium pages.
+addCommandAlias("build", "gen; genquiz; gengloss; pdf; gen")
 
 lazy val gen = taskKey[Unit]("alias for plan/run")
 gen := (plan/Compile/run).toTask("").value
@@ -85,6 +114,9 @@ genquiz := (quiz/Compile/run).toTask("").value
 lazy val gengloss = taskKey[Unit]("alias for glossary/run")
 gengloss := (glossary/Compile/run).toTask("").value
 
+lazy val autotranslate = taskKey[Unit]("alias for autotranslate/run")
+autotranslate := (autotranslateProject/Compile/run).toTask("").value
+
 // ************** cmd util functions
 
 def showTail(fileName: String, n: Int = 40): Unit = { 
@@ -94,8 +126,7 @@ def showTail(fileName: String, n: Int = 40): Unit = {
   println(lines.takeRight(n).mkString("\n"))
 }
 
-def runPdfLatexCmd(texFile: File, workDir: File, stdOutSuffix: String = "-console.log"): Unit = {
-  println(s" ******* Compiling $texFile to pdf *******")
+def runPdfLatexCmd(texFile: File, workDir: File, stdOutSuffix: String = "-console.log", maxPasses: Int = 1): Unit = {
   val cmd = scala.sys.process.Process(
     Seq("pdflatex","-halt-on-error", texFile.getName),
     workDir
@@ -103,9 +134,22 @@ def runPdfLatexCmd(texFile: File, workDir: File, stdOutSuffix: String = "-consol
   val cmdOutputFile =  workDir / texFile.getName.replace(".tex", stdOutSuffix)
   // val bibtexCmd = Process(Seq("bibtex", texFile.getName.replace(".tex", ".aux")), workDir)
 
-  // run pdflatex command TWICE in sequence to generate toc from .aux etc:
-  //val exitValue = cmd.#>(cmdOutputFile).#&&(cmd).#>(cmdOutputFile).run.exitValue
-  val exitValue = cmd.#>(cmdOutputFile).run.exitValue
+  // Run pdflatex until the .toc / cross-refs converge, i.e. until LaTeX stops asking to rerun — capped at
+  // maxPasses (like a tiny latexmk; avoids guessing 2 vs 3). The Swedish tasks default to 1 because their working
+  // dir (compendium/, slides/) keeps .aux/.toc across builds; the English mirror dirs are regenerated fresh every
+  // run, so pass 1 writes the .toc but never reads it (no ToC), pass 2 typesets it (which shifts pages), and a
+  // 3rd pass may be needed for the ToC/\pageref page numbers to settle. En tasks pass a cap of 4.
+  println(s" ******* Compiling $texFile to pdf (up to $maxPasses pass(es)) *******")
+  var exitValue = 0; var pass = 0; var rerun = true
+  while (pass < math.max(1, maxPasses) && exitValue == 0 && rerun) {
+    exitValue = cmd.#>(cmdOutputFile).run.exitValue
+    pass += 1
+    rerun = exitValue == 0 && {
+      val log = scala.util.Try(IO.read(cmdOutputFile)).getOrElse("")
+      log.contains("Rerun to get") || log.contains("Label(s) may have changed")
+    }
+  }
+  println(s"         ($pass pdflatex pass(es) run)")
   if (exitValue != 0) {
     println("*** ############ ERROR LOG STARTS HERE ############### ***")
     //Process(Seq("cat", cmdOutputFile.getName), workDir).run
@@ -183,6 +227,20 @@ pdfCompendium := {
   runPdfLatexCmd(texFile = file("compendium.tex"), workDir = file("compendium"))
 }
 
+// Best-effort Swedish-% report via the autotranslate scanner (single source of truth: Code.swedishish),
+// run AFTER an English PDF is built so the *En tasks ALWAYS show how close to 0% Swedish we are. Wrapped
+// so a missing pdftotext / scanner error never fails the build.
+def reportSwedishPct(autotranslateCp: String, pdf: File): Unit =
+  try { import scala.sys.process._; Seq("java", "-cp", autotranslateCp, "Main", "--pdf-swedish", pdf.getPath).!; () }
+  catch { case _: Throwable => println(s"  (swedish-% report skipped: ${pdf.getName})") }
+
+lazy val pdfCompendiumEn = taskKey[Unit]("Compile the generated English mirror compendium-en/compendium-en.tex")
+pdfCompendiumEn := {
+  val cp = (autotranslateProject / Compile / fullClasspath).value.files.map(_.getPath).mkString(java.io.File.pathSeparator)
+  runPdfLatexCmd(texFile = file("compendium-en.tex"), workDir = file("compendium-en"), maxPasses = 4)
+  reportSwedishPct(cp, file("compendium-en/compendium-en.pdf"))
+}
+
 lazy val pdfCompendiumPrint = taskKey[Unit]("Compile compendium-print.tex")
 pdfCompendiumPrint := {
   runPdfLatexCmd(texFile = file("compendium-print.tex"), workDir = file("compendium"))
@@ -196,6 +254,20 @@ pdfCompendium1 := {
 lazy val pdfCompendium2 = taskKey[Unit]("Compile compendium2.tex")
 pdfCompendium2 := {
   runPdfLatexCmd(texFile = file("compendium2.tex"), workDir = file("compendium"))
+}
+
+lazy val pdfCompendium1En = taskKey[Unit]("Compile the generated English mirror compendium-en/compendium1-en.tex")
+pdfCompendium1En := {
+  val cp = (autotranslateProject / Compile / fullClasspath).value.files.map(_.getPath).mkString(java.io.File.pathSeparator)
+  runPdfLatexCmd(texFile = file("compendium1-en.tex"), workDir = file("compendium-en"), maxPasses = 4)
+  reportSwedishPct(cp, file("compendium-en/compendium1-en.pdf"))
+}
+
+lazy val pdfCompendium2En = taskKey[Unit]("Compile the generated English mirror compendium-en/compendium2-en.tex")
+pdfCompendium2En := {
+  val cp = (autotranslateProject / Compile / fullClasspath).value.files.map(_.getPath).mkString(java.io.File.pathSeparator)
+  runPdfLatexCmd(texFile = file("compendium2-en.tex"), workDir = file("compendium-en"), maxPasses = 4)
+  reportSwedishPct(cp, file("compendium-en/compendium2-en.pdf"))
 }
 
 lazy val pdfSlides = inputKey[Unit]("run pdflatex slides/lect-w<weeknumber>.tex")
@@ -217,8 +289,32 @@ pdfSlides := {
   if (args.isEmpty) runPdfLatexCmd(file("all-lectures.tex"), workDir)
 }
 
+lazy val pdfSlidesEn = inputKey[Unit]("run pdflatex on the English mirror slides-en/lect-w<weeknumber>-en.tex")
+pdfSlidesEn := {
+  val args: Seq[String] = spaceDelimited("<arg>").parsed
+  val cp = (autotranslateProject / Compile / fullClasspath).value.files.map(_.getPath).mkString(java.io.File.pathSeparator)
+  val workDir = file("slides-en")
+  val weeks = if (args.isEmpty) {
+    // empty args = build ALL decks (like pdfSlides), derived from the Swedish source set slides/lect-*.tex
+    val decks = Option(file("slides").listFiles).getOrElse(Array.empty)
+      .filter(f => f.getName.startsWith("lect-") && f.getName.endsWith(".tex"))
+      .map(_.getName.stripPrefix("lect-").stripSuffix(".tex"))
+      .sorted.toSeq
+    println(s"""<args> is empty, building all ${decks.size} decks: ${decks.mkString(" ")}""")
+    decks
+  } else args
+  for (w <- weeks) {
+    val f: String = if (w startsWith "w") "lect-" + w else w // allow both w01 and lect-w01 / file names
+    val name = if (f.takeRight(4) == ".tex") f.dropRight(4) + "-en.tex" else f + "-en.tex"
+    val texFile = file(name)
+    println(s"runPdfLatexCmd($texFile, $workDir)")
+    runPdfLatexCmd(texFile, workDir, maxPasses = 4)
+    reportSwedishPct(cp, new File(workDir, name.dropRight(4) + ".pdf"))
+  }
+}
+
 lazy val root = (project in file(".")).
-  aggregate(workspace, plan, quiz, glossary).
+  aggregate(workspace, plan, quiz, glossary, autotranslateProject).
   settings(commonSettings: _*).
   settings(
     name := "introprog root",

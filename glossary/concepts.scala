@@ -9,7 +9,7 @@ object explain:
       BaseType, Block, Boolean, 
       CallByName, CallByValue,
       CaseClass, Class, ClassParameter, Collection, CollectionLibrary, Column, ColumnVector,
-      CompanionObject, Compile, Compiler, CompileError, Computer, ControlStructure, Constructor, 
+      CompanionObject, Compilation, Compile, Compiler, CompileError, Computer, ControlStructure, Constructor, 
       DataStructure,
       DefaultArgument, Deserialize, DotNotation, DynamicBinding, 
       Enumeration, Element, Export, Expression,
@@ -18,7 +18,7 @@ object explain:
       Implementation, Import, Inheritance, Instance, 
       Key, KeyValueTable, 
       LazyInitialization, LinearSearch, LinearSearchAlgorithm, Literal, 
-      MapOperation, Mapping, Matrix, Member, MemoryComplexity, Method, Mixin, Module, 
+      Main, MapOperation, Mapping, Matrix, Member, MemoryComplexity, Method, Mixin, Module,
       NamedArguments, NameShadowing, Namespace, New, Null, 
       Object, Ordering, Overloading, OverriddenMember, 
       Package, ParameterList, Persistence, Polymorphism, Predicate, Private, Procedure, ProgramArgument, ProtectedMember,
@@ -236,6 +236,14 @@ object explain:
       enShortExplanation = "to translate code into executable form",
       svLongExplanation = "Att kompilera innebär att en kompilator analyserar källkoden, utför typkontroll och andra statiska analyser, och översätter den till en körbar form såsom bytekod för JVM; eventuella fel rapporteras som kompileringsfel.",
       enLongExplanation = "To compile means that a compiler analyzes the source code, performs type checking and other static analyses, and translates it into an executable form such as bytecode for the JVM; any errors are reported as compile errors.",
+    )
+    val Compilation = Concept(
+      sv = "kompilering",
+      en = "compilation",
+      svShortExplanation = "kod på lägre nivå skapas ur källkodsfiler",
+      enShortExplanation = "lower-level code is created from source code files",
+      svLongExplanation = "Kompilering är processen där en kompilator översätter källkod till kod på lägre nivå, i Scalas fall bytekod för JVM; kompileringen sker innan programmet kan köras och eventuella fel rapporteras som kompileringsfel.",
+      enLongExplanation = "Compilation is the process where a compiler translates source code into lower-level code, in the case of Scala bytecode for the JVM; compilation happens before the program can be run and any errors are reported as compile errors.",
     )
     val CompileError = Concept(
       sv = "kompileringsfel",
@@ -476,6 +484,14 @@ object explain:
       enShortExplanation = "specifies a specific data value",
       svLongExplanation = "En litteral är en direkt notation för ett specifikt värde i källkoden, t.ex. '42' för ett heltal, '3.14' för ett Double, '\"hej\"' för en sträng, 'true' för ett booleskt värde, eller ''a'' för ett tecken.",
       enLongExplanation = "A literal is a direct notation for a specific value in source code, e.g. '42' for an integer, '3.14' for a Double, '\"hello\"' for a string, 'true' for a boolean, or ''a'' for a character.",
+    )
+    val Main = Concept(
+      sv = "@main",
+      en = "@main",
+      svShortExplanation = "där exekveringen av kompilerat program startar",
+      enShortExplanation = "where execution of a compiled program starts",
+      svLongExplanation = "En metod som annoteras med @main blir programmets startpunkt: när det kompilerade programmet körs anropas @main-metoden automatiskt, och eventuella kommandoradsargument görs tillgängliga som typade parametrar.",
+      enLongExplanation = "A method annotated with @main becomes the program's entry point: when the compiled program is run, the @main method is called automatically, and any command-line arguments are made available as typed parameters.",
     )
     val MapOperation = Concept(
       sv = "map",
